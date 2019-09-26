@@ -1,0 +1,103 @@
+/*-----Sub-Menu Styles-----*/
+nav li {
+   display: inline-block;
+   list-style-type: none;
+   position: relative;
+}
+
+nav li ul {
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   margin: 0;
+   padding: 0;
+   width: 700px;
+}
+
+nav li ul li {
+   padding: 1% 0;
+   display: inline;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+nav li:hover > ul {
+   display: block;
+}
+
+.citas {
+   background-color: #C74B72;
+   color: #FFFFFF;
+}
+
+.citas:hover {
+   border: 2px solid #C74B72;
+   background-color: #FFFFFF;
+   color: #C74B72;
+}
+
+
+/*-----SERVICES-----*/
+.menu {
+   /* border: 1px solid royalblue; */
+   width: 80%;
+   padding: 1em;
+   margin: 5em auto;
+}
+
+.menu-grid {
+   /* border: 1px solid red; */
+   max-width: 1300px;
+   margin: 0 auto;
+}
+
+.menu-heading {
+   /* border: 1px solid black; */
+   margin: 2%;
+   width: 600px;
+}
+
+.menu-container {
+   /* border: 1px solid fuchsia; */
+   position: relative;
+   margin: 4% auto;
+   display: flex;
+   flex-direction: row;
+   width: 80%;
+}
+
+.menu-info {
+   /* border: 1px solid yellow; */
+   margin: 2%;
+   letter-spacing: 1px;
+   padding: 0em 1em;
+   width: 600px;
+}
+
+
+.menu-price {
+   /* border: 1px solid green; */
+   margin: 2% 0;
+   padding: 0em 1em;
+   width: 180px;
+}
+
+.menu-price h2 {
+   color: #C74B72;
+}
+
+.soon {
+   display: none;
+}
+
+
+
+/* 
+
+WILL CENTER SUBMENU
+nav li ul {
+   left: 50%;
+   transform: translateX(-50%);
+}
+ */
