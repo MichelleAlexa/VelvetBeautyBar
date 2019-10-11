@@ -6,6 +6,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="format-detection" content="telephone=no">
    <meta name="author" content="Velvet Beauty Bar">
    <meta name="description" content="Home Page">
    
@@ -13,7 +14,7 @@
    
    <!-- Stylesheets -->
    <link rel="stylesheet" type="text/css" href="css/main.css">
-   <link rel="stylesheet" type="text/css" href="css/mobile.css">
+   <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
    <!-- Fonts -->
    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Rubik:300,400,500|Cinzel:400,700&display=swap" rel="stylesheet">
@@ -23,49 +24,49 @@
 <body>
    <div class="wrapper">
       <header id="top">
-      <nav class="clearfix">
-
-         <ul class="desktop">
-            <a href="index.html"><img src="img/branding/logoHeart.png" class="logo" alt="Velvet's Heart Logo"></a>
+         <nav class="clearfix">
             
-            <li><a href="menu.html">Servicios</a></li>
-            <li><a href="combos.html">Paquetes</a></li>
-            <li><a href="index.html#promo">Promos</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-            <li><a href="#schedule" class="citas">Citas 722.675.8311</a></li>
-         </ul>
-      </nav>
-
-      <!-- Intro -->
-      <section class="intro" id="intro">
-         <h3 class="section-title">Bienvenidos a</h3>
-         <img src="img/branding/logo.png" class="logoName">
-         <h3 class="tagline">Enamorate de ti, de la vida y luego ... de quien tu quieras</h3>
-      </section>
-   </header>
+            <ul class="desktop">
+               <a href="index.html"><img src="img/branding/logoHeart.png" class="logo" alt="Velvet's Heart Logo"></a>
+               <li><a href="index.html">Inicio</a></li>
+               <li><a href="menu.html">Servicios</a></li>
+               <li><a href="combos.html">Paquetes</a></li>
+               <li><a href="index.html#promo">Promos</a></li>
+               <li><a href="contact.html">Contacto</a></li>
+               <li><a href="fb.com/book/velvetbeautybartoluca/" class="citas fb">Citas 722.675.8311</a></li>            
+               <li><a href="tel:+52-722-675-8311" rel="nofollow" class="citas tel">Citas 722.675.8311</a></li>            
+            </ul>
+         </nav>
+         
+         <!-- Intro -->
+         <section class="intro" id="intro">
+            <h3 class="section-title">Bienvenidos a</h3>
+            <img src="img/branding/logo.png" class="logoName">
+            <h3 class="tagline">Enamorate de ti, de la vida y luego ... de quien tu quieras</h3>
+         </section>
+      </header>
 
    <main>
       <section class="about-us" id="about">
          <h3 class="moto">Rejuvenece. Restaura. Consientete</h3>
 
          <div class="about-us-content">
-            <!-- Video -->
             <div class="about-us-video">
                <video controls width="520" height="520" poster="img/branding/introAline.jpg" style="object-fit: cover">
                   <source src="img/branding/introVid.mp4" type="video/mp4">
                </video>
-            </div>
+            </div> <!-- Video -->
    
             <!-- Small background on Velvet -->
             <div class="about-us-body">
                <p><span>Velvet Beauty Bar</span> Un nuevo concepto en clínicas de belleza!</p><br>
                <p>Reunimos en un solo lugar a especialistas profesionales en BELLEZA ESTÉTICA, y CUIDADO PERSONAL. Disponemos de lo más avanzado en tecnología ELECTROESTÉTICA no invasiva.</p><br>
                <p>Donde podrás disfrutar de sus instalaciones con un ambiente relajado consintiendo a sus clientes con una deliciosa copa de vino.</p><br>
-               <p>En Velvet ofrecemos una barra extensa de tratamientos... Que esperas ven a conocernos!</p>
+               <p>Que esperas ven a conocernos!</p>
    
                <!-- <a href="menu.html" class="about-us-btn">Menu</a> -->
             </div>
-         </div> <!-- end of about info-->
+         </div> <!-- end of about content-->
          
       </section> <!-- end of about section-->
    </main>
@@ -74,7 +75,6 @@
          <h1 class="section-title">Servicios</h1>
 
          <div class="service-grid">
-
             <div class="container">
                <a href="menu.html"><img src="img/assets/services/face_thumb.png" class="image" alt="Tratamientos faciales">
                <div class="overlay">
@@ -84,7 +84,7 @@
                   </div>
                </div>
                </a>
-            </div>
+            </div> <!-- end of service 1 -->
 
             <div class="container">
                <a href="services_body.html"><img src="img/assets/services/skin_thumb.png" class="image" alt="Tratamientos corporales">
@@ -95,8 +95,7 @@
                   </div>
                </div>
                </a>
-            </div>
-
+            </div> <!-- end of service 1 -->
 
             <div class="container">
                <a href="menu.html#hair"><img src="img/assets/services/hair_thumb.png" class="image" alt="Tratamientos capilares">
@@ -107,7 +106,7 @@
                   </div>
                </div>
                </a>
-            </div>
+            </div> <!-- end of service 1 -->
             
             <div class="container">
                <a href="menu.html#eyes"><img src="img/assets/services/eyes_thumb.png" class="image" alt="Tratamientos ojos">
@@ -129,17 +128,15 @@
                   </div>
                </div>
                </a>
-            </div>
+            </div> <!-- end of service 1 -->
             
-         </div> <!-- End of GridServices  -->
-         </div> <!-- End of Services  -->
-      </section>
+         </div> <!-- End of Service GRID -->
+      </section> <!-- End of Services SECTION -->
 
       <section class="promo" id="promo">
          <h1 class="section-title">Promociones | Especiales</h1>
 
          <div class="promo-container">
-
             <div class="promo-card">
                <div class="promo-content">
                   <h2 class="promo-title">Velvet-Slim</h2>
@@ -157,8 +154,6 @@
                   <a href="https://www.instagram.com/p/B0j59lnnW7I/" target="_blank" class="promo-btn long">Agenda Cita</a> 
                </div>               
             </div> <!-- end of card -->
-            
-            
 
          </div> <!-- end of promo container-->
       </section> <!-- end of promo section-->
@@ -166,7 +161,7 @@
       <section class="contact" id="contact">
          <div class="contact-content">
             <div class="location">
-               <h3>Calle Maria Curie 1003 2do Piso<br>Esq. con Alfedro del Mazo. Col Cientificos Toluca, Mexico 50120</h3>
+               <h3>Maria Curie 1003 2do Piso Esq.con Alfedro del Mazo<br>Col. Cientificos Toluca, Mexico 50120</h3>
                
                <div class="map">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.4576596992474!2d-99.63253408509526!3d19.30593718695636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8a03b8b0c45b%3A0x4f96e2c73a61c1ea!2sCalle+Mar%C3%ADa+Curie+1003%2C+Las+Torres%2C+50075+Toluca+de+Lerdo%2C+M%C3%A9x.%2C+Mexico!5e0!3m2!1sen!2sus!4v1559766768228!5m2!1sen!2sus" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -213,11 +208,10 @@
          </div> <!-- end footer social links-->
 
          <a href="michellealexa.com" class="copyright">© 2019 Designed by Michelle Alvarez</a>
-         
       </footer>
+
    </div> <!-- End of wrapper-->
    </body>
    
-   <!-- top link INICIO-->
 
 </html>

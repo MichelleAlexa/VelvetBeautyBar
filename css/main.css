@@ -1,3 +1,4 @@
+
 /*-----Notes-----*/
 
 /* 
@@ -23,13 +24,9 @@ gray: #9A9A9A;
    box-sizing: border-box;
 }
 
-*::before, *::after {
-   box-sizing: border-box;
-}
+*::before, *::after {box-sizing: border-box;}
 
-html {
-   font-family: 'Open Sans', sans-serif;
-}
+html {font-family: 'Open Sans', sans-serif;}
 
 body {
    width: 100%;
@@ -38,7 +35,6 @@ body {
 
 .wrapper {
    margin: 0 auto;
-   max-width: 1500px;
    /* border: 1px solid blue; */
 }
 
@@ -105,9 +101,7 @@ span {
 
 .tagline {color: #FFFFFF;}
 
-.section-title{
-   margin-bottom: 2em;
-}
+.section-title{margin-bottom: 2em;}
 
 
 /*-----Navigation Styles-----*/
@@ -150,9 +144,7 @@ nav a:focus {
    color: #C74B72;
 }
 
-.active {
-   color: #C74B72;
-}
+.active {color: #C74B72;}
 
 .citas {
    border: 2px solid #C74B72;
@@ -161,6 +153,10 @@ nav a:focus {
    letter-spacing: 2px;
 }
 
+.citas:hover {
+   background-color: #C74B72;
+   color: #FFFFFF;
+}
 
 /*-----Intro-----*/
 .intro {
@@ -169,19 +165,19 @@ nav a:focus {
    background-size: cover;
    width: 100%;
    text-align: center;
-   height: 90vh;
+   height: 95vh;
    padding: 20vh 1em;
 }
 
 .logoName {
    width: 30%;
    margin-right: 15px; 
-   margin-bottom: 10em;
+   margin-bottom: 18em;
    overflow: visible;
    position: relative;
 }
 
-.intro .section-title { color: #FFFFFF;}
+.intro .section-title {color: #FFFFFF;}
 
 /*-----About Us-----*/
 .about-us {
@@ -221,25 +217,6 @@ nav a:focus {
    justify-content: top center;
    width: 35%;
    letter-spacing: 1px;
-}
-
-.about-us-btn {
-   padding: 14px 20px;
-   border: 2px solid #C74B72;
-   background-color: #FFFFFF;
-   border-radius: 50px;
-   width: 110px;
-   height: 50px;
-   text-align: center;
-   text-transform: uppercase;
-   color: #C74B72;
-   margin: 40px 0px 0px auto;
-   cursor: pointer;
-}
-
-.about-us-btn:hover{
-   background-color: #C74B72;
-   color: #FFFFFF;
 }
 
 /*-----Services-----*/
@@ -292,9 +269,7 @@ nav a:focus {
    z-index: 1;
  }
  
- .container:hover .overlay {
-   opacity: 1;
- }
+ .container:hover .overlay {opacity: 1;}
  
  .overlay-text {
    color: white;
@@ -358,9 +333,7 @@ nav a:focus {
    height: 100%;
 }
 
-.promo-content p {
-   font-size: 1em;
-}
+.promo-content p {font-size: 1em;}
 
 .promo-title {
    font-size: 2rem;
@@ -396,9 +369,7 @@ nav a:focus {
    letter-spacing: 1px;
 }
 
-.long {
-   width: 180px;
-}
+.long {width: 180px;}
 
 .promo-btn:hover {
    background-color: #C74B72;
@@ -417,7 +388,7 @@ nav a:focus {
 .contact-content{
    /* border: 1px solid pink; */
    max-width: 2000px;
-   margin: 0 auto;
+   margin: auto;
    display: flex;
    flex-direction: row;
    position: relative;
@@ -431,17 +402,16 @@ nav a:focus {
    font-size: 1rem;
    height: 100px;
    padding: 1em 0;
-   width: 500px;
+   width: 400px;
 }
 
 
 /*-----Location-----*/
 .location {
    /* border: 1px solid olivedrab; */
-   max-width: 700px;
+   max-width: 500px;
    display: flex;
    flex-direction: column;
-   padding: 1em;
    justify-content: top center;
    width: 50%;
    margin: 0 2%;
@@ -449,33 +419,30 @@ nav a:focus {
 
 .map {
    filter: grayscale(100%);
-   margin: 0 auto;
+   margin: 3em 2em;
 }
 
 
 /*-----Social-----*/
 .insta {
    /* border: 1px solid purple; */
-   max-width: 700px;
-   display: flex;
-   flex-direction: column;
-   padding: 1em;
+   max-width: 500px;
    justify-content: top center;
    width: 50%;
-   margin: 0 2%;
 }
 
 .feed{
    /* border: 1px solid hotpink; */
-   max-width: 500px;
-   margin: 0 auto;
+   margin: 30px auto;
 }
 
 .feed-content{
    /* border: 1px solid palegreen; */
+   display: flex;
+   flex-flow: wrap;
    width: 200px;
    height: 200px;
-   margin: 20px;
+   margin: 4%;
    display: inline-block;
    overflow: hidden;
 }
@@ -488,6 +455,8 @@ nav a:focus {
 
 .insta a { color: #333333;}
 .insta a:hover {color: #C74B72;}
+
+
 
 /*-----Footer-----*/
 footer {
@@ -545,3 +514,122 @@ footer {
 .copyright {
    color: #9A9A9A;
 }
+
+
+/* CLINCI CONTACT */
+.clinic-info {
+   background-image: url(/img/branding/equip.jpg);
+   background-blend-mode: multiply;
+   background-color: #9A9A9A;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   text-align: center;
+   height: 92vh;
+   padding: 20vh 1em;
+}
+
+.section-title{
+   margin-top: 6em;
+   margin-bottom: 2em;
+   color: #FFFFFF;
+}
+
+.intro-title {
+   margin-bottom: 2em;
+   color: #FFFFFF;
+}
+
+.clinic {
+   /* border: 1px solid teal; */
+   width: 90%;
+   max-width: 1100px;
+   margin: 5em auto;
+   padding: 1em;
+}
+
+.clinic-content{
+   /* border: 1px solid pink; */
+   max-width: 2000px;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   position: relative;
+}
+
+.clinic-title {margin: 1em .5em;}
+
+.clinic .location {
+   /* border: 1px solid orchid; */
+   padding: 1em;
+}
+.clinic .map {margin: 3em auto;}
+
+.location h2 {
+   color: #333333;
+   font-size: 1rem;
+   padding: 1em;
+}
+
+.in-touch {
+   /* border: 1px solid firebrick; */
+   margin: 0 auto;
+   padding: 1em;
+   letter-spacing: 1px;
+   margin-bottom: 10em;
+}
+
+.in-touch h2, p {
+   color: #333333;
+   font-size: 1rem;
+   padding: 1em 1em 0;
+}
+
+.in-touch span {
+   color: #C74B72;
+   font-size: 1rem;
+}
+
+.schedule{
+   /* border: 1px solid blue; */
+   margin-bottom: 10em;
+   padding: 0 1em 1em 0;
+}
+
+.rsvp{
+   /* border: 1px solid blue; */
+   margin-bottom: 3em;
+   padding: 0 1em 1em 0;
+}
+
+.contact-btn {
+   padding: 8px 18px;
+   border: 2px solid #C74B72;
+   background-color: #FFFFFF;
+   border-radius: 50px;
+   width: 140px;
+   height: 40px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #C74B72;
+   margin: 40px 15px;
+   letter-spacing: 1px;
+}
+
+.contact-btn:hover{
+   background-color: #C74B72;
+   color: #FFFFFF;
+   /* background-color: rgb(199,75,114, 0.8);
+   color: #FFFFFF; */
+}
+
+.clinic-foot .moto {
+   text-align: center;
+   margin: 100px auto;
+   color: #C74B72;
+}
+
+.clinic-foot {
+   clear: both;
+}
+
