@@ -170,14 +170,18 @@ nav a:focus {
 }
 
 .logoName {
-   width: 30%;
+   /* width: 30%; */
+   max-width:30%;
    margin-right: 15px; 
-   margin-bottom: 18em;
+   margin-bottom: 14em;
    overflow: visible;
    position: relative;
 }
 
-.intro .section-title {color: #FFFFFF;}
+.intro .section-title {
+   color: #FFFFFF;
+   margin-top: 50px;
+}
 
 /*-----About Us-----*/
 .about-us {
@@ -213,7 +217,7 @@ nav a:focus {
    max-width: 600px;
    display: flex;
    flex-direction: column;
-   padding: 1em;
+   padding: 1em auto;
    justify-content: top center;
    width: 35%;
    letter-spacing: 1px;
@@ -433,7 +437,7 @@ nav a:focus {
 
 .feed{
    /* border: 1px solid hotpink; */
-   margin: 30px auto;
+   margin: 50px auto;
 }
 
 .feed-content{
