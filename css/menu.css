@@ -75,6 +75,7 @@ nav li ul li {
 
 .menu-info p {
    padding-left: 0;
+   font-size: 1.40rem;
 }
 
 .menu-price {
@@ -142,3 +143,31 @@ nav li:hover > ul {
    display: block;
 }
  */
+
+
+
+
+
+
+ @media only screen and (max-width: 1112px) {
+   /*-----Intro-----*/
+   nav {
+      height: 140px;
+   }
+   nav li ul {
+      margin-top: 1em;
+   }
+   /*-----Menu-----*/
+   h1{
+      font-size: 1.75rem;
+   }
+   .menu p {
+      font-size: 1.15rem;
+   }
+   .menu-container {
+      margin: 6% auto;
+   }
+   .menu-price p {
+      font-size: 1rem;
+   }
+}
