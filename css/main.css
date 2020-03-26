@@ -172,7 +172,7 @@ nav a:focus {
    background-size: cover;
    width: 100%;
    text-align: center;
-   height: 95vh;
+   height: 75vh;
    padding: 20vh 1em;
 }
 
@@ -188,6 +188,10 @@ nav a:focus {
 .intro .section-title {
    color: #FFFFFF;
    margin-top: 50px;
+}
+
+.tagline {
+   margin-top: 8em;
 }
 
 /*-----About Us-----*/
@@ -221,7 +225,7 @@ nav a:focus {
    justify-content: top center;
    width: 50%;
    letter-spacing: 1px;
-   margin: 0 5%;
+   margin: 0 3%;
 }
 
 .about-us-body span {
@@ -281,6 +285,7 @@ nav a:focus {
    transition: .5s ease;
    background-color: rgb(199,75,114, 0.3);
    z-index: 1;
+   background-position:center;
  }
  
  .container:hover .overlay {opacity: 1;}
@@ -549,7 +554,7 @@ footer {
    background-position: center center;
    background-size: cover;
    text-align: center;
-   height: 92vh;
+   height: 75vh;
    padding: 20vh 1em;
 }
 
