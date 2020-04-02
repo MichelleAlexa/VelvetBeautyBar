@@ -47,7 +47,7 @@ body {
 h1 {
    font-family: 'Rubik', sans-serif;
    font-weight: 400;
-   font-size: 2rem;
+   font-size: 2.50rem;
    text-transform: uppercase;
    letter-spacing: 5px;
 }
@@ -96,34 +96,38 @@ span {
    color: #FFFFFF;
    text-transform: uppercase;
    letter-spacing: 2px; 
-   font-size: .75rem;
+   font-size: .85rem;
 }
 
 .tagline {color: #FFFFFF;}
 
 .section-title{margin-bottom: 2em;}
 
-/* 
+header {
+   max-width: 2500px;
+   margin: auto;
+   position: relative;
+   /* border: 1px solid cyan; */
+}
+
 .moto{
    color: #333333;
-   width: 100%;
-   font-size: 1.25rem;
 }
- */
+
 
 /*-----Navigation Styles-----*/
 .logo {
    width: 80px;
-   top: 5px;
-   left: 50px;
+   top: 10px;
+   left: 0;
    position: absolute;
    overflow: hidden;
 }
 
 nav {
+   /* border: 1px solid orange; */
    height: 100px;
    overflow: visible;
-   /* border: 1px solid orange; */
 }
 
 nav ul {
@@ -177,7 +181,7 @@ nav a:focus {
 }
 
 .logoName {
-   /* width: 30%; */
+   width: 30%;
    max-width:30%;
    margin-right: 15px; 
    margin-bottom: 14em;
@@ -191,7 +195,12 @@ nav a:focus {
 }
 
 .tagline {
-   margin-top: 8em;
+   position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 5%;
+	margin-left: auto;
+ 	margin-right: auto;
 }
 
 /*-----About Us-----*/
@@ -263,6 +272,11 @@ nav a:focus {
    cursor: pointer;
    padding: 1%;
  }
+
+ .x {
+    display: none;
+    border: none;
+ }
  
  .services .section-title {color: #C74B72;}
 
@@ -309,7 +323,7 @@ nav a:focus {
    background-position: center center;
    background-size: cover;
    width: 100%;
-   height: 1000px;
+   height: 1100px;
    padding: 3em;
    margin: 10em auto;
    text-align: center;
@@ -335,7 +349,7 @@ nav a:focus {
 
 .promo-card {
    width: 500px;
-   height: 600px;
+   height: 620px;
    margin: 3% auto;
 }
 
@@ -351,6 +365,7 @@ nav a:focus {
    width: 100%;
    height: 100%;
 }
+
 
 .promo-content p {font-size: 1.50em;}
 
@@ -425,8 +440,6 @@ nav a:focus {
    width: 400px;
 }
 
-.insta a {font-size: 1.25rem;}
-
 /*-----Location-----*/
 .location {
    /* border: 1px solid olivedrab; */
@@ -480,10 +493,10 @@ nav a:focus {
    transform: translate(-10%)
 }
 
-.insta a { color: #333333;}
-.insta a:hover {color: #C74B72;}
-
-
+.insta a {
+   font-size: 1.25rem;
+   color: #C74B72;
+}
 
 /*-----Footer-----*/
 footer {
@@ -501,14 +514,14 @@ footer {
 }
 
 .footer-nav ul {
+   /* border: 1px solid black; */
    display: flex;
    list-style: none;
-   margin: 0;
+   margin: 0 0 0 50px;
    padding: 0;
    justify-content: center;
    align-items: center;
 }
-
 
 .footer-nav a {
    display: inline-block;
@@ -584,7 +597,6 @@ footer {
    display: flex;
    flex-direction: row;
    position: relative;
-   
 }
 
 .clinic-title {margin: 1em .5em;}
