@@ -78,6 +78,13 @@ nav li ul li {
    font-size: 1.40rem;
 }
 
+.total {
+   /* border: 1px solid greenyellow; */
+   margin: 2% 0;
+   width: 200px;
+   text-align: right;
+}
+
 .menu-price {
    /* border: 1px solid green; */
    margin: 2% 0;
@@ -92,13 +99,21 @@ nav li ul li {
 }
 
 .menu-price p {
-   font-size: 1rem;
+   font-size: 1.25rem;
+   padding-right: 0;
 }
 
 .includes {
    font-size: 1rem;
    color: #9A9A9A;
    margin: 30px 0;
+}
+.desk-title {
+   display: block;
+}
+
+.mob-title {
+   display: none;
 }
 
 .soon {
@@ -188,5 +203,76 @@ nav li:hover > ul {
    }
    .menu-price h2  {
       font-size: 1.25rem;
+   }
+}
+
+@media only screen and (max-width: 834px) {
+   .menu {
+      width: 92%;
+   }
+   .menu-heading {
+      width: 80%;
+   }
+   .menu-heading h1 {
+      font-size: 2rem;
+   }
+   .menu-heading span {
+      font-size: 1.50rem;
+   }
+   .menu-price h2{
+      font-size: 1.50rem;
+   }
+   .menu-info h3 {
+      font-size: 1.50rem;
+   }
+   .menu-price {
+      width: 200px;
+   }
+   .menu-price p {
+      padding-bottom: 0;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .menu {
+      width: 100%;
+   }
+   .menu-heading {
+      width: 450px;
+   }
+}
+
+
+@media only screen and (max-width: 600px) {
+   .total {
+      width: 130px;
+   }
+   .menu-price {
+      width: 220px;
+   }
+   .menu-heading h1 {
+      font-size: 1.25rem;
+   }
+   .menu-heading span {
+      font-size: 1rem;
+      width: 100%;
+   }
+   .menu-info span {
+      font-size: 1rem;
+   }
+   .menu-price h2{
+      font-size: 1rem;
+   }
+   .menu-info h3 {
+      font-size: 1rem;
+   }
+   .menu-info p, .menu-price p {
+      font-size: .85rem;
+   }
+   .desk-title {
+      display: none;
+   }
+   .mob-title {
+      display: block;
    }
 }
