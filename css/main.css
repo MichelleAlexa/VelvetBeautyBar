@@ -112,6 +112,7 @@ header {
 
 .moto{
    color: #333333;
+   /* border: 1px solid lavender; */
 }
 
 
@@ -434,7 +435,7 @@ nav a:focus {
 }
 
 .contact h3 {
-   /* border: 1px solid orange; */
+   /* border: 1px solid orangered; */
    margin: 1em auto;
    text-align: center;
    color: #333333;

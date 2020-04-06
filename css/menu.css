@@ -244,6 +244,9 @@ nav li:hover > ul {
 
 
 @media only screen and (max-width: 600px) {
+   .menu {
+      margin: 5em auto;
+   }
    .total {
       width: 130px;
    }
@@ -270,6 +273,24 @@ nav li:hover > ul {
       font-size: .85rem;
    }
    .desk-title {
+      display: none;
+   }
+   .mob-md-title {
+      display: block;
+   }
+}
+
+@media only screen and (max-width: 420px) {
+   .total {
+      font-size: 1.25rem;
+   }
+   .menu-container {
+      width: 100%;
+   }
+   .menu-price {
+      width: 300px;
+   }
+   .mob-md-title {
       display: none;
    }
    .mob-title {

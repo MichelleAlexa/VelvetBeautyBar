@@ -96,6 +96,10 @@
    .x {
       display: block;
    }
+   .image {
+      display: inline-block;
+      padding: 3%;
+   }
    /*-----Promos-----*/
    .promo-card {
       height: 540px;
@@ -127,6 +131,9 @@
       font-size: 1.25rem;
    }
    /*-----Clinic-----*/
+   .clinic-content {
+      height: 700px;
+   }
    .in-touch {
       width: 440px;
    }
@@ -176,7 +183,6 @@
       margin: 1% auto;
    }
    .image {
-      display: inline-block;
       padding: 1% 3%;
    }
   /*-----Promos-----*/
@@ -208,6 +214,10 @@
    }
    .map {
       margin: 4em 1em;
+   }
+   .map iframe {
+      width: 400px;
+      height: 420px;
    }
    .feed {
       margin: 60px auto;
@@ -283,22 +293,22 @@
    }
    /*-----Promo-----*/
    .promo {
-      height: 1800px;
+      height: 1700px;
    }
    .promo-container {
       flex-direction: row;
-      width: 100%;
-      height: 1500px;
+      width: 70%;
+      height: 1300px;
    }
    .promo-card {
-      width: 480px;
-      height: 650px;
+      width: 400px;
+      height: 550px;
    }
    .promo-title {
       font-size: 2.25em;
    }
    .promo-content p {
-      font-size: 1.50em;
+      font-size: 1.25em;
    }
    .promo-highlight {
       margin-bottom: 0;
@@ -313,6 +323,9 @@
       width: 100%;
       margin: 3% auto;
    }
+   .location .map {
+      margin-left: 10%;
+   }
    .contact h3 {
       font-size: 1.35rem;
       width: 500px;
@@ -323,7 +336,7 @@
    }
    /*-----Footer-----*/
    .footer-nav a {
-      font-size: 1.50rem;
+      font-size: 1.25rem;
    }
    /*-----Clinic-----*/
    .clinic {
@@ -334,19 +347,14 @@
       height: 380px;
    }
    .clinic .map {
-      top: 35%;
+      top: 30%;
+      left: -5%;
    }
    .clinic .location {
       width: 500px;
    }
    .clinic h1 {
       font-size: 1.50rem;
-   }
-   .in-touch h2 {
-      font-size: 1.15rem;
-   }
-   .clinic .location h2 {
-      font-size: 1.20rem;
    }
    .schedule {
       margin-bottom: 3em;
@@ -357,43 +365,32 @@
 @media only screen and (max-width: 768px) {
    /*-----Nav-----*/
    /*-----Intro-----*/
-   
+   /*-----About-----*/
+   .about-us-body span {
+      font-size: 1.50rem;
+   }
    /*-----Services-----*/
    .service-grid {
       height: 1000px;
    }
    .container {
       flex: 50%;
+      margin: 10px auto;
    }
    .image {
-      padding: 5%;
+      width: 90%;
    }
    /*-----Promo-----*/
-   .promo {
-      height: 1800px;
-   }
-   .promo-container {
-      flex-direction: row;
-      width: 100%;
-      height: 1500px;
-   }
-   .promo-card {
-      width: 450px;
-      height: 650px;
-   }
    .promo-title {
-      font-size: 2.25em;
-   }
-   .promo-content p {
-      font-size: 1.50em;
+      font-size: 2em;
    }
    .promo-highlight {
       margin-bottom: 0;
    }
    /*-----Footer-----*/
-   .footer-nav a {
-      font-size: 1.25rem;
-   } 
+   .copyright {
+      font-size: 1rem;
+   }
    /*-----Clinic-----*/
    .clinic .location {
       height: 800px;
@@ -547,21 +544,125 @@
       font-size: 1rem;
    }
    /*-----Clinic-----*/
+   .clinic-content {
+      flex-direction: column;
+      height: 100%;
+   }
+   .clinic h1 {
+      font-size: 1.75rem;
+   }
+   .clinic .map iframe {
+      width: 400px;
+      height: 450px;
+   }
+   .clinic .location {
+      width: 500px;
+      width: 85%;
+   }
+   .clinic .map {
+      top: 20%;
+      left: -5%;
+   }
+   .in-touch {
+      width: 85%;
+   }
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 420px) {
    /*-----Nav-----*/
    .fb {display: none;}
 
    .tel {display: block;}
    /*-----Intro-----*/
    /*-----About-----*/
+   .about-us {
+      padding: 1em;
+   }
+   .about-us-content {
+      width: 100%;
+   }
+   .moto {
+      width: 100%;
+      text-align: left;
+      font-size: 1.25rem;
+      margin-bottom: 1em;
+   }
+   .about-us-video video{
+      width: 300px;
+   }
+   .about-us-body {
+      height: 400px;
+   }
    /*-----Services-----*/
+   .services {
+      padding: 1em;
+   }
+   .service-grid {
+      height: 1800px;
+   }
+   .container {
+      flex: 100%;
+   }
+   .image {
+      width: 100%;
+      margin: 5%;
+      padding: 5%;
+   }
    /*-----Promo-----*/
+   .promo {
+      height: 1450px;
+   }
+   .promo-container {
+      width: 100%;
+      height: 1050px;
+   }
+   .promo-card {
+      width: 380px;
+      height: 460px;
+   }
    /*-----Social-----*/
+   .contact {
+      width: 100%;
+      margin: 5em auto;
+   }
+   .location, .insta {
+      width: 100%;
+   }
+   .contact h3 {
+      width: 95%;
+   }
+   .map {
+      top: 15%;
+      left: -5%;
+   }
+   .map iframe {
+      width: 340px;
+   }
+   .feed {
+      margin: 50px auto;
+      width: 90%;
+      padding: 0;
+   }
+   .feed-content {
+      width: 150px;
+      height: 160px;
+   }
    /*-----Footer-----*/
+   .footer-nav ul {
+      margin: 0 ;
+   }
    /*-----Clinic-----*/
+   .clinic .map {
+      top: 30%;
+   }
+   .in-touch {
+      width: 90%;
+   }
+   .clinic-foot .moto {
+      font-size: 1.75rem;
+      margin-bottom: 150px;
+   }
 }
 
  
@@ -570,7 +671,3 @@
    
 }  
 
-
-/* .fb {display: block;}
-
-.tel {display: none;} */
