@@ -365,20 +365,34 @@
 @media only screen and (max-width: 768px) {
    /*-----Nav-----*/
    /*-----Intro-----*/
+   .intro {
+      height: 90vh;
+   }
+   .logoName {
+      width: 50%;
+   }
    /*-----About-----*/
    .about-us-body span {
       font-size: 1.50rem;
    }
    /*-----Services-----*/
+   .services {
+      padding: 2em;
+   }
    .service-grid {
       height: 1000px;
    }
    .container {
       flex: 50%;
-      margin: 10px auto;
+      margin: 0 auto;
    }
    .image {
+      width: 100%;
+      padding: 2%;
+   }
+   .overlay {
       width: 90%;
+      height: 90%;
    }
    /*-----Promo-----*/
    .promo-title {
@@ -460,23 +474,40 @@
    }
    .about-us-body {
       width: 85%;
+      height: 550px;
       margin-left: 8%;
    }
    .about-us-body span {
-      font-size: 1.15rem;
+      font-size: 1.25rem;
    }
    .about-us-body p{
-      font-size: 1rem;
+      font-size: 1.25rem;
       margin: auto;
       padding: 0;
    }
    /*-----Services-----*/
    .services {
       margin: 2em auto;
-      padding: 1em 3em;
-   }
+      padding: 1em;
+   }  
    .service-grid {
-      height: 700px;
+      height: 1850px;
+      width: 80%;
+   }
+   .container {
+      flex: 100%;
+      width: 376px;
+   }
+   .container:hover {
+      display: none;
+   }
+   .image {
+      margin: 2% 5%;
+      width: 120%;
+      /* padding: 4%; */
+   }
+   .menu-text {
+      display: block;
    }
    /*-----Promo-----*/
    .promo {
@@ -520,6 +551,7 @@
    }
    .map {
       top: 15%;
+      left: -5%;
    }
    .insta {
       height: 650px;
@@ -556,7 +588,6 @@
       height: 450px;
    }
    .clinic .location {
-      width: 500px;
       width: 85%;
    }
    .clinic .map {
@@ -565,6 +596,10 @@
    }
    .in-touch {
       width: 85%;
+   }
+   .clinic-foot .moto {
+      font-size: 1.75rem;
+      margin-bottom: 150px;
    }
 }
 
@@ -650,24 +685,23 @@
    }
    /*-----Footer-----*/
    .footer-nav ul {
-      margin: 0 ;
+      margin: 0;
    }
    /*-----Clinic-----*/
+   .clinic .location, .in-touch {
+      width:100%;
+   }
+   .clinic .map iframe {
+      width: 320px;
+   }
    .clinic .map {
-      top: 30%;
-   }
-   .in-touch {
-      width: 90%;
-   }
-   .clinic-foot .moto {
-      font-size: 1.75rem;
-      margin-bottom: 150px;
+      top: 25%;
    }
 }
 
  
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 375px){
    
 }  
 

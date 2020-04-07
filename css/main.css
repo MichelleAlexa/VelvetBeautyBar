@@ -320,6 +320,18 @@ nav a:focus {
    text-align: center;
  }
 
+ .menu-text {
+   display: none;
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+   opacity: .8;
+}
  
 /*-----Promos-----*/
  .promo {
@@ -596,7 +608,7 @@ footer {
 }
 
 .clinic-content{
-   /* border: 1px solid pink; */
+   border: 1px solid pink;
    max-width: 2000px;
    margin: 0 auto;
    display: flex;
@@ -607,7 +619,7 @@ footer {
 .clinic-title {margin: 1em .5em;}
 
 .clinic .location {
-   /* border: 1px solid orchid; */
+   border: 1px solid orchid;
    padding: 1em;
    margin: 0 auto;
 }
@@ -620,7 +632,7 @@ footer {
 }
 
 .in-touch {
-   /* border: 1px solid firebrick; */
+   border: 1px solid firebrick;
    margin: 0 auto;
    padding: 1em;
    letter-spacing: 1px;
