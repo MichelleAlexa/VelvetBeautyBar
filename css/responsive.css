@@ -354,6 +354,9 @@
 @media only screen and (max-width: 834px) {
 
    /*-----Nav-----*/
+   nav {
+      display: none;
+   }
    /*-----Intro-----*/
    .intro .section-title {
       font-size: 1.50rem;
