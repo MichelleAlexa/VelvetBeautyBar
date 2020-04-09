@@ -1,5 +1,5 @@
 /*-----Responsive-----*/
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
    h3 {
       font-size: 1.50rem;
    }
@@ -53,7 +53,7 @@
    }
 }
 
-@media only screen and (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
 
    /*-----Intro-----*/
    .intro {
@@ -66,7 +66,7 @@
    }
 }
 
-@media only screen and (max-width: 1112px) {
+@media screen and (max-width: 1112px) {
 
    /*-----Intro-----*/
    .logoName {
@@ -185,7 +185,7 @@
    }
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
    /*-----Header-----*/
    nav a {
@@ -351,7 +351,7 @@
 }
 
 
-@media only screen and (max-width: 834px) {
+@media screen and (max-width: 834px) {
 
    /*-----Nav-----*/
    nav {
@@ -535,7 +535,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
    /*-----Nav-----*/
    /*-----Intro-----*/
@@ -664,7 +664,7 @@
 }
 
 
-@media only screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
 
    /*-----Nav-----*/
    .fb {
@@ -862,7 +862,7 @@
 
 
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
 
    /*-----Intro-----*/
    .tagline {
@@ -961,7 +961,7 @@
    }
 }
 
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
 
    /*-----About-----*/
    .about-us {
