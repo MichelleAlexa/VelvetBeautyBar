@@ -50,7 +50,7 @@ nav li ul li {
 .menu-heading {
    /* border: 1px solid black; */
    margin: 2%;
-   width: 600px;
+   width: 100%;
 }
 
 .combo-title {
@@ -63,14 +63,14 @@ nav li ul li {
    margin: 4% auto;
    display: flex;
    flex-direction: row;
-   width: 80%;
+   width: 90%;
 }
 
 .menu-info {
    /* border: 1px solid yellow; */
    margin: 2%;
    letter-spacing: 1px;
-   width: 600px;
+   width: 100%;
 }
 
 .menu-info p {
@@ -92,8 +92,11 @@ nav li ul li {
    text-align: right;
 }
 
-.menu-price h2 { color: #C74B72;}
-.menu-info h2{
+.menu-price h2 {
+   color: #C74B72;
+}
+
+.menu-info h2 {
    color: #C74B72;
    font-size: 1rem;
 }
@@ -108,11 +111,40 @@ nav li ul li {
    color: #9A9A9A;
    margin: 30px 0;
 }
-.desk-title {
+
+.menu-title-og {
    display: block;
 }
 
-.mob-title {
+.menu-title-break {
+   display: none;
+}
+
+.menu-og {
+   display: block;
+}
+
+.menu--micro {
+   display: block;
+}
+
+.menu-micro {
+   display: none;
+}
+
+.menu-break {
+   display: none;
+}
+
+.menu-min {
+   display: none;
+}
+
+.combo-og {
+   display: block;
+}
+
+.combo-min {
    display: none;
 }
 
@@ -160,25 +192,37 @@ nav li:hover > ul {
  */
 
 
+@media only screen and (max-width: 1366px) {
+   .menu p {
+      font-size: 1.15rem;
+   }
+}
 
 
+@media only screen and (max-width: 1112px) {
 
-
- @media only screen and (max-width: 1112px) {
    /*-----Header-----*/
    nav {
       height: 140px;
    }
+
    nav li ul {
       margin-top: 1em;
    }
+
    /*-----Menu-----*/
-   h1{
+   h1 {
       font-size: 1.75rem;
    }
+
+   .menu {
+      margin: 3em auto;
+   }
+
    .menu p {
       font-size: 1.15rem;
    }
+
    .menu-container {
       margin: 6% auto;
    }
@@ -188,20 +232,25 @@ nav li:hover > ul {
    nav a {
       font-size: 1rem;
    }
+
    nav li ul li a {
       font-size: 1rem;
    }
-   h1{
+
+   h1 {
       font-size: 1.50rem;
    }
+
    .menu p {
       font-size: 1.15rem;
    }
+
    .menu-container {
       margin: 6% auto;
       width: 90%;
    }
-   .menu-price h2  {
+
+   .menu-price h2 {
       font-size: 1.25rem;
    }
 }
@@ -209,91 +258,197 @@ nav li:hover > ul {
 @media only screen and (max-width: 834px) {
    .menu {
       width: 92%;
+      margin: 3em auto;
    }
+
+   .menu-container {
+      margin: 2em auto;
+   }
+
    .menu-heading {
       width: 80%;
    }
+
    .menu-heading h1 {
       font-size: 2rem;
    }
+
    .menu-heading span {
       font-size: 1.50rem;
    }
-   .menu-price h2{
+
+   .menu-price h2 {
       font-size: 1.50rem;
    }
+
    .menu-info h3 {
       font-size: 1.50rem;
    }
+
    .menu-price {
       width: 200px;
    }
+
+   .menu-container p {
+      font-size: 1.125rem;
+   }
+
    .menu-price p {
       padding-bottom: 0;
+      font-size: 1rem;
+   }
+
+   .total h1 {
+      font-size: 2rem;
    }
 }
+
 
 @media only screen and (max-width: 768px) {
    .menu {
       width: 100%;
+      margin: 4em auto;
    }
+
+   .menu-container {
+      width: 95%;
+   }
+
    .menu-heading {
-      width: 450px;
+      width: 100%;
+      margin: 0;
    }
+
+   .menu-title-og {
+      display: none;
+   }
+
+   .menu-title-break {
+      display: block;
+   }
+
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 420px) {
    .menu {
       margin: 5em auto;
    }
-   .total {
-      width: 130px;
-   }
-   .menu-price {
-      width: 220px;
-   }
-   .menu-heading h1 {
-      font-size: 1.25rem;
-   }
-   .menu-heading span {
-      font-size: 1rem;
+
+   .menu-container {
+      flex-direction: column;
+      padding: 1%;
+      margin: 2em auto;
       width: 100%;
    }
+
+   .total {
+      display: none;
+   }
+
+   .menu-info {
+      width: 100%;
+      margin: 0;
+   }
+
+   .menu-heading h1 {
+      font-size: 1.50rem;
+   }
+
+   .menu-heading span {
+      font-size: 1.25rem;
+   }
+
+   .menu-price {
+      width: 100%;
+      text-align: left;
+      margin-top: 1em;
+   }
+
+   .menu-price p {
+      padding-left: 0;
+   }
+
    .menu-info span {
       font-size: 1rem;
    }
-   .menu-price h2{
-      font-size: 1rem;
-   }
-   .menu-info h3 {
-      font-size: 1rem;
-   }
-   .menu-info p, .menu-price p {
-      font-size: .85rem;
-   }
-   .desk-title {
+
+   .menu-og {
       display: none;
    }
-   .mob-md-title {
+
+   .menu-break {
+      display: block;
+   }
+
+   .menu-break span {
+      font-size: 1.50rem;
+   }
+}
+
+@media only screen and (max-width: 375px) {
+   .menu-container {
+      flex-direction: column;
+      padding: 1%;
+      margin: 2em auto;
+   }
+
+   .total {
+      display: none;
+   }
+
+   .menu-info {
+      width: 100%;
+      margin: 0;
+   }
+
+   .menu-heading h1 {
+      font-size: 1.50rem;
+   }
+
+   .menu-heading span {
+      font-size: 1.25rem;
+   }
+
+   .menu-price {
+      width: 100%;
+      text-align: left;
+      margin-top: 1em;
+   }
+
+   .menu-price p {
+      padding-left: 0;
+   }
+
+   .menu-og-micro {
+      display: none;
+   }
+
+   .menu-micro {
+      display: block;
+   }
+
+   .menu-micro span,
+   .menu-min span {
+      font-size: 1.25rem;
+   }
+
+   .menu-break {
+      display: none;
+   }
+
+   .menu-min {
       display: block;
    }
 }
 
-@media only screen and (max-width: 420px) {
-   .total {
-      font-size: 1.25rem;
+
+@media only screen and (max-width: 320px) {
+   .menu-heading span {
+      font-size: 1rem;
    }
-   .menu-container {
-      width: 100%;
-   }
+
    .menu-price {
-      width: 300px;
-   }
-   .mob-md-title {
-      display: none;
-   }
-   .mob-title {
-      display: block;
+      font-size: 1rem;
    }
 }

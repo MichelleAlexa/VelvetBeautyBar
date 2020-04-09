@@ -1,4 +1,3 @@
-
 /*-----Notes-----*/
 
 /* 
@@ -24,9 +23,14 @@ gray: #9A9A9A;
    box-sizing: border-box;
 }
 
-*::before, *::after {box-sizing: border-box;}
+*::before,
+*::after {
+   box-sizing: border-box;
+}
 
-html {font-family: 'Open Sans', sans-serif;}
+html {
+   font-family: 'Open Sans', sans-serif;
+}
 
 body {
    width: 100%;
@@ -34,8 +38,8 @@ body {
 }
 
 .wrapper {
-   margin: 0 auto;
    /* border: 1px solid blue; */
+   margin: 0 auto;
 }
 
 .clearfix::after {
@@ -52,7 +56,7 @@ h1 {
    letter-spacing: 5px;
 }
 
-h2 { 
+h2 {
    font-family: 'Rubik', sans-serif;
    font-weight: 300;
    font-size: 1.50rem;
@@ -70,12 +74,12 @@ h3 {
 
 h4 {
    font-family: 'Rubik', serif;
-   text-transform: uppercase  ;
+   text-transform: uppercase;
    font-weight: 300;
-   letter-spacing: 1px; 
+   letter-spacing: 1px;
 }
 
-p { 
+p {
    font-weight: 300;
    color: #333333;
 }
@@ -87,7 +91,7 @@ a {
    font-size: 1.50rem;
 }
 
-span { 
+span {
    color: #C74B72;
    font-size: 1.25rem;
 }
@@ -95,13 +99,17 @@ span {
 .sub-heading {
    color: #FFFFFF;
    text-transform: uppercase;
-   letter-spacing: 2px; 
+   letter-spacing: 2px;
    font-size: .85rem;
 }
 
-.tagline {color: #FFFFFF;}
+.tagline {
+   color: #FFFFFF;
+}
 
-.section-title{margin-bottom: 2em;}
+.section-title {
+   margin-bottom: 2em;
+}
 
 header {
    max-width: 2500px;
@@ -110,9 +118,9 @@ header {
    /* border: 1px solid cyan; */
 }
 
-.moto{
-   color: #333333;
+.moto {
    /* border: 1px solid lavender; */
+   color: #333333;
 }
 
 
@@ -151,12 +159,14 @@ nav a {
    letter-spacing: 1px;
 }
 
-nav a:hover, 
+nav a:hover,
 nav a:focus {
    color: #C74B72;
 }
 
-.active {color: #C74B72;}
+.active {
+   color: #C74B72;
+}
 
 .citas {
    border: 2px solid #C74B72;
@@ -170,9 +180,14 @@ nav a:focus {
    color: #FFFFFF;
 }
 
-.fb {display: block;}
+.fb {
+   display: block;
+}
 
-.tel {display: none;}
+.tel {
+   display: none;
+}
+
 /*-----Intro-----*/
 .intro {
    background-image: url(/img/branding/introX.png);
@@ -187,7 +202,7 @@ nav a:focus {
 .logoName {
    width: 30%;
    /* max-width:30%; */
-   margin-right: 15px; 
+   margin-right: 15px;
    margin-bottom: 14em;
    overflow: visible;
    position: relative;
@@ -201,11 +216,11 @@ nav a:focus {
 .tagline {
    /* border: 1px solid aliceblue; */
    position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 5%;
-	margin-left: auto;
- 	margin-right: auto;
+   left: 0;
+   right: 0;
+   bottom: 5%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /*-----About Us-----*/
@@ -213,11 +228,11 @@ nav a:focus {
    /* border: 1px solid orange; */
    width: 80%;
    max-width: 1500px;
-   margin: 8em auto;
+   margin: 5em auto;
    padding: 3em;
 }
 
-.about-us-content{
+.about-us-content {
    /* border: 1px solid red; */
    max-width: 2200px;
    margin: 40px auto;
@@ -231,7 +246,7 @@ nav a:focus {
    margin: 2%;
 }
 
-.about-us-body{
+.about-us-body {
    /* border: 1px solid yellow; */
    display: flex;
    flex-direction: column;
@@ -245,6 +260,7 @@ nav a:focus {
 .about-us-body span {
    font-size: 1.50rem;
 }
+
 .about-us-body p {
    font-size: 1.50rem;
 }
@@ -255,10 +271,10 @@ nav a:focus {
    width: 90%;
    padding: 3em;
    text-align: center;
-   margin: 10em auto;
+   margin: 5em auto;
 }
 
-.service-grid{
+.service-grid {
    /* border: 1px solid red; */
    max-width: 1500px;
    margin: 100px auto;
@@ -276,23 +292,25 @@ nav a:focus {
    flex: 0 1 33%;
    cursor: pointer;
    padding: 1%;
- }
+}
 
- .x {
-    display: none;
-    border: none;
- }
- 
- .services .section-title {color: #C74B72;}
+.x {
+   display: none;
+   border: none;
+}
 
- .image {
+.services .section-title {
+   color: #C74B72;
+}
+
+.image {
    display: block;
    height: auto;
    width: 100%;
    padding: 1%;
- }
- 
- .overlay {
+}
+
+.overlay {
    position: absolute;
    top: 0;
    bottom: 0;
@@ -302,14 +320,16 @@ nav a:focus {
    width: 100%;
    opacity: 0;
    transition: .5s ease;
-   background-color: rgb(199,75,114, 0.3);
+   background-color: rgb(199, 75, 114, 0.3);
    z-index: 1;
-   background-position:center;
- }
- 
- .container:hover .overlay {opacity: 1;}
- 
- .overlay-text {
+   background-position: center;
+}
+
+.container:hover .overlay {
+   opacity: 1;
+}
+
+.overlay-text {
    color: white;
    position: absolute;
    top: 50%;
@@ -318,9 +338,9 @@ nav a:focus {
    -ms-transform: translate(-50%, -50%);
    transform: translate(-50%, -50%);
    text-align: center;
- }
+}
 
- .menu-text {
+.menu-text {
    display: none;
    color: white;
    position: absolute;
@@ -332,9 +352,9 @@ nav a:focus {
    text-align: center;
    opacity: .8;
 }
- 
+
 /*-----Promos-----*/
- .promo {
+.promo {
    background-image: url(/img/assets/promoX.jpg);
    background-blend-mode: multiply;
    background-position: center center;
@@ -342,7 +362,7 @@ nav a:focus {
    width: 100%;
    height: 1100px;
    padding: 3em;
-   margin: 10em auto;
+   margin: 5em auto;
    text-align: center;
 }
 
@@ -351,7 +371,11 @@ nav a:focus {
    margin-top: 1em;
 }
 
-.promo-container{
+.promo .break {
+   display: none;
+}
+
+.promo-container {
    /* border: 1px solid red; */
    max-width: 1400px;
    width: 1200px;
@@ -370,7 +394,7 @@ nav a:focus {
    margin: 3% auto;
 }
 
-.promo-content{ 
+.promo-content {
    border-radius: 30px;
    background-color: #FFFFFF;
    flex: 0 1 50%;
@@ -383,8 +407,9 @@ nav a:focus {
    height: 100%;
 }
 
-
-.promo-content p {font-size: 1.50em;}
+.promo-content p {
+   font-size: 1.50em;
+}
 
 .promo-title {
    font-size: 2rem;
@@ -420,7 +445,9 @@ nav a:focus {
    letter-spacing: 1px;
 }
 
-.long {width: 200px;}
+.long {
+   width: 200px;
+}
 
 .promo-btn:hover {
    background-color: #C74B72;
@@ -429,14 +456,14 @@ nav a:focus {
 
 /*-----Contact-----*/
 .contact {
-   /* border: 1px solid orange; */
+   /* border: 1px solid teal; */
    width: 100%;
    max-width: 1500px;
-   margin: 10em auto;
+   margin: 5em auto;
    padding: 1em;
 }
 
-.contact-content{
+.contact-content {
    /* border: 1px solid pink; */
    max-width: 1500px;
    width: 1100px;
@@ -488,12 +515,12 @@ nav a:focus {
    margin: auto;
 }
 
-.feed{
+.feed {
    /* border: 1px solid hotpink; */
    margin: 80px auto;
 }
 
-.feed-content{
+.feed-content {
    /* border: 1px solid palegreen; */
    display: flex;
    flex-flow: wrap;
@@ -524,10 +551,10 @@ footer {
    margin: 200px 0 20px 0;
 }
 
-.footer-nav{
+.footer-nav {
    /* border: 1px solid skyblue; */
    height: 50px;
-   margin: 0  auto;
+   margin: 0 auto;
 }
 
 .footer-nav ul {
@@ -554,7 +581,7 @@ footer {
    color: #C74B72;
 }
 
-.social{
+.social {
    /* border: 1px solid magenta; */
    margin: 2em 0 4em 0;
 }
@@ -588,7 +615,7 @@ footer {
    padding: 20vh 1em;
 }
 
-.section-title{
+.section-title {
    margin-top: 6em;
    margin-bottom: 2em;
    color: #FFFFFF;
@@ -607,8 +634,8 @@ footer {
    padding: 1em;
 }
 
-.clinic-content{
-   border: 1px solid pink;
+.clinic-content {
+   /* border: 1px solid pink; */
    max-width: 2000px;
    margin: 0 auto;
    display: flex;
@@ -616,14 +643,19 @@ footer {
    position: relative;
 }
 
-.clinic-title {margin: 1em .5em;}
+.clinic-title {
+   margin: 1em .5em;
+}
 
 .clinic .location {
-   border: 1px solid orchid;
+   /* border: 1px solid orchid; */
    padding: 1em;
    margin: 0 auto;
 }
-.clinic .map {top: 30%;}
+
+.clinic .map {
+   top: 30%;
+}
 
 .location h2 {
    color: #333333;
@@ -632,15 +664,15 @@ footer {
 }
 
 .in-touch {
-   border: 1px solid firebrick;
+   /* border: 1px solid firebrick; */
    margin: 0 auto;
    padding: 1em;
    letter-spacing: 1px;
    width: 40%;
-   /* margin-bottom: 10em; */
 }
 
-.in-touch h2, p {
+.in-touch h2,
+p {
    color: #333333;
    font-size: 1.25rem;
    padding: 1em 1em 0;
@@ -651,13 +683,17 @@ footer {
    font-size: 1.25rem;
 }
 
-.schedule{
+.schedule {
    /* border: 1px solid blue; */
    margin-bottom: 5em;
    padding: 0 1em 1em 0;
 }
 
-.rsvp{
+.clinic-break {
+   display: none;
+}
+
+.rsvp {
    /* border: 1px solid blue; */
    margin-bottom: 3em;
    padding: 0 1em 1em 0;
@@ -677,7 +713,7 @@ footer {
    letter-spacing: 1px;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
    background-color: #FFFFFF;
    color: #C74B72;
    border: 2px solid #C74B72;
@@ -694,4 +730,3 @@ footer {
 .clinic-foot {
    clear: both;
 }
-
