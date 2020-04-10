@@ -4,6 +4,7 @@
       width: 20%;
    }
 }
+
 @media screen and (max-width: 1440px) {
    h3 {
       font-size: 1.50rem;
@@ -356,12 +357,14 @@
 }
 
 
+
 @media screen and (max-width: 834px) {
 
    /*-----Nav-----*/
    nav {
       display: none;
    }
+
    /*-----Intro-----*/
    .intro .section-title {
       font-size: 1.50rem;
@@ -369,6 +372,7 @@
 
    .logoName {
       width: 40%;
+      overflow-y: hidden;
    }
 
    .tagline {
@@ -669,12 +673,151 @@
 }
 
 
+@media screen and (min-width: 414px) and (max-width: 896px) and (orientation: landscape) {
+
+   /*-----Intro-----*/
+   .intro {
+      overflow-y: hidden;
+   }
+
+   .intro .section-title {
+      margin-top: 0;
+   }
+
+   .logoName {
+      width: 20%;
+   }
+
+   /*-----About-----*/
+   .about-us {
+      padding: 1em;
+   }
+
+   .about-us-content {
+      width: 100%;
+   }
+
+   /*-----Services-----*/
+   .services {
+      padding: 2em;
+      height: 800px;
+   }
+
+   .service-grid {
+      height: 550px;
+      margin: 50px auto 10px;
+   }
+
+   .overlay {
+      display: none;
+   }
+
+   .menu-text {
+      display: block;
+   }
+
+   /*-----Promo-----*/
+   .promo {
+      padding: 1em;
+      height: 800px;
+   }
+
+   .promo-container {
+      margin: 50px auto;
+      height: 550px;
+      width: 100%;
+   }
+
+   .promo-card {
+      width: 380px;
+      height: 480px;
+   }
+
+   .promo-highlight {
+      margin-bottom: 0;
+   }
+
+   .promo-content p {
+      font-size: 1.125rem;
+   }
+
+   /*-----Social-----*/
+   .contact-content {
+      width: 100%;
+   }
+
+   .insta a {
+      font-size: 1rem;
+   }
+
+   .contact .map iframe {
+      width: 350px;
+      height: 370px;
+   }
+
+   .contact .map {
+      top: 20%;
+      left: 3%;
+   }
+   .feed-content {
+      width: 173px;
+      height: 173px;
+      margin: 2%;
+   }
+   
+   /*-----Footer-----*/
+   footer {
+      margin: 50px auto;
+   }
+
+   /*-----Clinic-----*/
+   .clinic-info .section-title {
+      margin-top: 0;
+   }
+
+   .clinic {
+      margin: 3em auto;
+   }
+
+   .clinic .map iframe {
+      width: 340px;
+      height: 400px;
+   }
+
+   .clinic .map {
+      right: 5%;
+   }
+
+   .clinic .location {
+      width: 500px;
+   }
+
+   .clinic-og {
+      display: none;
+   }
+
+   .clinic-break {
+      display: block;
+   }
+
+   .schedule {
+      margin-bottom: 3em;
+   }
+
+   .clinic-foot .moto {
+      margin: 50px auto;
+   }
+
+}
+
+
 @media screen and (max-width: 414px) {
 
    /*-----Nav-----*/
    nav {
       display: none;
    }
+
    .fb {
       display: none;
    }
@@ -746,9 +889,13 @@
       padding: 2%;
    }
 
-   .overlay {display: none;}
+   .overlay {
+      display: none;
+   }
 
-   .menu-text {display: block;}
+   .menu-text {
+      display: block;
+   }
 
    /*-----Promo-----*/
    .promo {
@@ -911,7 +1058,10 @@
    }
 
    /*-----Services-----*/
-   .services {width: 100%;}
+   .services {
+      width: 100%;
+   }
+
    .service-grid {
       height: 1450px;
    }
@@ -980,6 +1130,7 @@
    .moto {
       font-size: .75rem;
    }
+
    .about-us {
       height: 1100px;
    }

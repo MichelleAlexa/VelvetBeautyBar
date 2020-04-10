@@ -210,7 +210,6 @@ nav a:focus {
    margin-bottom: 14em;
    overflow: visible;
    overflow-x: hidden;
-   overflow-y: hidden;
    position: relative;
 }
 
@@ -624,6 +623,7 @@ footer {
    text-align: center;
    height: 75vh;
    padding: 20vh 1em;
+   overflow-x: hidden;
 }
 
 .section-title {
