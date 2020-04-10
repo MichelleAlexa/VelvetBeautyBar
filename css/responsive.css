@@ -726,7 +726,7 @@
    }
 
    .service-grid {
-      height: 1600px;
+      height: 1500px;
       margin: 20px auto;
       width: 90%;
    }
@@ -740,6 +740,10 @@
       margin: 2% auto;
       padding: 2%;
    }
+
+   .overlay {display: none;}
+
+   .menu-text {display: block;}
 
    /*-----Promo-----*/
    .promo {
@@ -875,7 +879,7 @@
    /*-----About-----*/
    .about-us {
       padding: 0;
-      height: 1000px;
+      height: 1100px;
    }
 
    .moto {
@@ -903,7 +907,7 @@
 
    /*-----Services-----*/
    .service-grid {
-      height: 1450px;
+      height: 1350px;
    }
 
    /*-----Promo-----*/
@@ -985,7 +989,7 @@
 
    /*-----Services-----*/
    .service-grid {
-      height: 1150px;
+      height: 1120px;
    }
 
    /*-----Promo-----*/
