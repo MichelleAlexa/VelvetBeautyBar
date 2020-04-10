@@ -208,6 +208,7 @@ nav a:focus {
    /* max-width:30%; */
    margin-right: 15px;
    margin-bottom: 14em;
+   overflow: visible;
    overflow-x: hidden;
    position: relative;
 }
