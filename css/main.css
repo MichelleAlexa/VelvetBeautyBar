@@ -43,7 +43,6 @@ body {
    /* border: 1px solid blue; */
    margin: 0 auto;
    width: 100%;
-   overflow-x: hidden;
 }
 
 .clearfix::after {
@@ -201,6 +200,7 @@ nav a:focus {
    text-align: center;
    height: 75vh;
    padding: 20vh 1em;
+   overflow-x: hidden;
 }
 
 .logoName {
@@ -234,6 +234,7 @@ nav a:focus {
    max-width: 1500px;
    margin: 5em auto;
    padding: 3em;
+   overflow-x: hidden;
 }
 
 .about-us-content {
@@ -276,6 +277,7 @@ nav a:focus {
    padding: 3em;
    text-align: center;
    margin: 5em auto;
+   overflow-x: hidden;
 }
 
 .service-grid {
@@ -368,6 +370,7 @@ nav a:focus {
    padding: 3em;
    margin: 5em auto;
    text-align: center;
+   overflow-x: hidden;
 }
 
 .promo .section-title {
@@ -465,6 +468,7 @@ nav a:focus {
    max-width: 1500px;
    margin: 5em auto;
    padding: 1em;
+   overflow-x: hidden;
 }
 
 .contact-content {
@@ -553,6 +557,7 @@ footer {
    padding: 1em;
    text-align: center;
    margin: 200px 0 20px 0;
+   overflow-x: hidden;
 }
 
 .footer-nav {
