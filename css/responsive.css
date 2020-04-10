@@ -869,10 +869,7 @@
 
 
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media screen and (max-width: 375px) {
 
    /*-----Intro-----*/
    .tagline {
@@ -909,6 +906,7 @@
    }
 
    /*-----Services-----*/
+   .services {width: 100%;}
    .service-grid {
       height: 1350px;
    }

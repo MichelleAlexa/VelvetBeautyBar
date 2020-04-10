@@ -305,6 +305,7 @@ nav li:hover > ul {
 
 
 @media only screen and (max-width: 768px) {
+   
    .menu {
       width: 100%;
       margin: 4em auto;
