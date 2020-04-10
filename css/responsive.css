@@ -667,6 +667,9 @@
 @media screen and (max-width: 414px) {
 
    /*-----Nav-----*/
+   nav {
+      display: none;
+   }
    .fb {
       display: none;
    }
