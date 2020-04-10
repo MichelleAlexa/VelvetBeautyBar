@@ -972,6 +972,9 @@
 @media screen and (max-width: 320px) {
 
    /*-----About-----*/
+   .moto {
+      font-size: .75rem;
+   }
    .about-us {
       height: 1050px;
    }
