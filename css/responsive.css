@@ -1,5 +1,5 @@
 /*-----Responsive-----*/
-@media screen and (max-width: 1920px) {
+@media only screen and (max-width: 1920px) {
    .logoName {
       width: 20%;
    }
@@ -9,7 +9,7 @@
    }
 }
 
-@media screen and (max-width: 1440px) {
+@media only screen and (max-width: 1440px) {
    h3 {
       font-size: 1.50rem;
    }
@@ -63,7 +63,7 @@
    }
 }
 
-@media screen and (max-width: 1366px) {
+@media only screen and (max-width: 1366px) {
 
    /*-----Intro-----*/
    .intro {
@@ -76,7 +76,7 @@
    }
 }
 
-@media screen and (max-width: 1112px) {
+@media only screen and (max-width: 1112px) {
 
    /*-----Intro-----*/
    .logoName {
@@ -195,7 +195,7 @@
    }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 
    /*-----Header-----*/
    nav a {
@@ -362,7 +362,7 @@
 
 
 
-@media screen and (max-width: 834px) {
+@media only screen and (max-width: 834px) {
 
    /*-----Nav-----*/
    nav {
@@ -548,7 +548,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
    /*-----Nav-----*/
    /*-----Intro-----*/
@@ -676,7 +676,7 @@
 }
 
 
-@media screen and (min-width: 414px) and (max-width: 896px) and (orientation: landscape) {
+@media only screen and (min-width: 414px) and (max-width: 896px) and (orientation: landscape) {
 
    /*-----Intro-----*/
    .intro {
@@ -937,7 +937,7 @@
    }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) {
 
    /*-----Nav-----*/
    nav {
@@ -1147,7 +1147,7 @@
 }
 
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px)  and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
    .logoName {
       width: 22%;
    }
@@ -1416,7 +1416,7 @@
    }
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
 
    /*-----Intro-----*/
    .tagline {
@@ -1669,7 +1669,7 @@
    }
 }
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 
    /*-----Intro-----*/
    .tagline {
