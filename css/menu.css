@@ -305,7 +305,7 @@ nav li:hover > ul {
 
 
 @media only screen and (max-width: 768px) {
-   
+
    .menu {
       width: 100%;
       margin: 4em auto;
@@ -320,6 +320,7 @@ nav li:hover > ul {
       margin: 0;
    }
 
+
    .menu-title-og {
       display: none;
    }
@@ -330,16 +331,59 @@ nav li:hover > ul {
 
 }
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
 
-@media only screen and (max-width: 420px) {
    .menu {
-      margin: 5em auto;
+      margin: 0 auto;
+   }
+
+   .menu-container {
+      width: 90%;
+   }
+
+   .menu-heading {
+      margin: 2%;
+   }
+
+   .menu-heading h1,
+   .total h1 {
+      font-size: 1.50rem;
+   }
+
+   .menu-title-og {
+      display: block;
+   }
+
+   .menu-title-break {
+      display: none;
+   }
+
+   .menu-info h3 {
+      font-size: 1.25rem;
+   }
+
+   .menu-info span {
+      font-size: 1rem;
+   }
+
+   .menu-price h2 {
+      font-size: 1.25rem;
+   }
+
+   .menu-info p {
+      font-size: 1rem;
+   }
+}
+
+@media only screen and (max-width: 414px) {
+   .menu {
+      margin: 2em auto;
    }
 
    .menu-container {
       flex-direction: column;
       padding: 1%;
-      margin: 2em auto;
+      margin: 3em auto;
       width: 100%;
    }
 
@@ -387,6 +431,94 @@ nav li:hover > ul {
    }
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+   .menu-price h2 {
+      font-size: 1.25rem;
+   }
+
+   .menu-info span {
+      font-size: 1rem;
+   }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+   .menu {
+      margin: 2em auto;
+   }
+
+   .menu-heading {
+      margin: 2%;
+   }
+
+   .menu-heading h1, .total h1 {
+      font-size: 1.50rem;
+   }
+
+   .menu-heading span {
+      font-size: 1.25rem;
+   }
+
+   .menu-title-og {
+      display: block;
+   }
+   
+   .menu-title-break {
+      display: none;
+   }
+
+   .menu-info span {
+      font-size: 1rem;
+   }
+   .menu-info h3 {
+      font-size: 1.125rem;
+   }
+
+   .menu-price h2 {
+      font-size: 1.25rem;
+   }
+
+   .menu-og-micro {
+      display: none;
+   }
+
+   .menu-micro {
+      display: block;
+   }
+
+   .menu-micro span,
+   .menu-min span {
+      font-size: 1.25rem;
+   }
+
+   .menu-info p {
+      font-size: 1rem;
+   }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+   .menu-container {
+      flex-direction: column;
+      padding: 1%;
+      margin: 2em auto;
+      width: 90%;
+   }
+
+   .total {
+      display: none;
+   }
+
+   .menu-info {
+      width: 100%;
+      margin: 0;
+   }
+   .menu-price {
+      width: 100%;
+      text-align: left;
+      margin-top: 1em;
+   }   
+}
+
 @media only screen and (max-width: 375px) {
    .menu-container {
       flex-direction: column;
@@ -405,6 +537,14 @@ nav li:hover > ul {
 
    .menu-heading h1 {
       font-size: 1.50rem;
+   }
+
+   .menu-info h3 {
+      font-size: 1.125rem;
+   }
+
+   .menu-info p {
+      font-size: 1rem;
    }
 
    .menu-heading span {
