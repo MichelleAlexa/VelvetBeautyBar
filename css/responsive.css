@@ -1147,7 +1147,7 @@
 }
 
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 800px) and (orientation: landscape) {
    .logoName {
       width: 22%;
    }
@@ -1311,28 +1311,242 @@
    /*-----Services-----*/
    .services {
       padding: 1em;
-      height: 1000px;
+      height: 1020px;
+   }
+
+   .container {
+      flex: 50%;
    }
 
    .service-grid {
       height: 800px;
+      margin: 20px auto;
+      width: 100%;
    }
 
    .image {
-      width: 85%;
+      width: 90%;
       margin: 2% auto;
       padding: 2%;
    }
 
    /*-----Promo-----*/
    .promo {
-      height: 1350px;
+      height: 750px;
    }
 
    .promo-container {
-      height: 1100px;
+      height: 500px;
+      flex-direction: row;
+   }
+
+   .promo-card {
+      width: 300px;
+      height: 480px;
+   }
+
+   .promo-highlight {
+      margin-bottom: 0;
+   }
+
+   .promo-content {
+      padding: 1em;
+   }
+
+   .promo-title {
+      font-size: 1.75rem;
+   }
+
+   .promo-content p {
+      font-size: 1.10rem;
+   }
+
+
+   /*-----Social-----*/
+   .contact {
+      width: 100%;
+      margin: 2em auto;
+      padding: 0;
+   }
+
+   .contact-content {
+      padding: 0;
+      flex-direction: column;
+   }
+
+   .location,
+   .insta {
+      width: 90%;
+      height: 600px;
+   }
+
+   .contact .map {
+      top: 15%;
+      left: 5%;
+   }
+
+   .contact .map iframe {
+      width: 400px;
+      height: 400px;
+   }
+
+   .feed {
+      margin: 30px auto;
+      padding: 0;
+      width: 85%;
+   }
+
+   .feed-content {
+      margin: 2% 3%;
+      width: 182px;
+      height: 182px;
+   }
+
+   /*-----Footer-----*/
+   .footer-nav ul {
+      margin: 0;
+   }
+
+   .footer-nav a {
+      font-size: 1rem;
+   }
+
+   /*-----Clinic-----*/
+   .clinic {
+      margin: 0 auto;
+   }
+
+   .clinic-info h1 {
+      font-size: 1.50rem;
+      margin-bottom: 5em;
+   }
+
+   .clinic-info h3 {
+      font-size: 1rem;
+   }
+
+   .clinic-content {
+      flex-direction: column;
+      height: 100%;
+   }
+
+   .clinic .location,
+   .in-touch {
       width: 70%;
    }
+
+   .clinic .map iframe {
+      width: 360px;
+   }
+
+   .contact-btn {
+      font-size: 1rem;
+   }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+
+   /*-----Intro-----*/
+   .intro {
+      height: 100vh;
+   }
+
+   .logoName {
+      width: 40%;
+   }
+
+   .intro .section-title {
+      font-size: .75rem;
+      display: none;
+   }
+
+   .tagline {
+      font-size: .75rem;
+      width: 80%;
+      display: block;
+   }
+
+   /*-----About-----*/
+   .about-us {
+      width: 80%;
+   }
+
+   .moto {
+      font-size: 1rem;
+   }
+
+   .about-us-content {
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 0;
+   }
+
+   .about-us-video {
+      margin: 0 4%;
+   }
+
+   .about-us-video video {
+      width: 460px;
+      height: 420px;
+   }
+
+   .about-us-body p {
+      font-size: 1rem;
+   }
+
+   /*-----Services-----*/
+   .services {
+      padding: 1em;
+      height: 1020px;
+   }
+
+   .container {
+      flex: 50%;
+   }
+
+   .service-grid {
+      height: 800px;
+      margin: 20px auto;
+      width: 100%;
+   }
+
+   .image {
+      width: 90%;
+      margin: 2% auto;
+      padding: 2%;
+   }
+
+   /*-----Promo-----*/
+   .promo {
+      height: 750px;
+   }
+
+   .promo-container {
+      height: 500px;
+      flex-direction: row;
+   }
+
+   .promo-card {
+      width: 300px;
+      height: 480px;
+   }
+
+   .promo-highlight {
+      margin-bottom: 0;
+   }
+
+   .promo-content {
+      padding: 1em;
+   }
+
+   .promo-title {
+      font-size: 1.75rem;
+   }
+
+   .promo-content p {
+      font-size: 1.10rem;
+   }
+
 
    /*-----Social-----*/
    .contact {
