@@ -1711,6 +1711,7 @@
 
    .about-us {
       height: 1100px;
+      overflow-y: hidden;
    }
 
    .about-us-video video {
