@@ -1604,6 +1604,7 @@
    .about-us {
       padding: 0;
       height: 1180px;
+      overflow-y: hidden;
    }
 
    .moto {
@@ -1711,7 +1712,6 @@
 
    .about-us {
       height: 1100px;
-      overflow-y: hidden;
    }
 
    .about-us-video video {
