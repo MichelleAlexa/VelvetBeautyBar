@@ -202,8 +202,8 @@
       font-size: .95rem;
    }
 
-   nav ul {
-      margin: 15px 0 0 0;
+   nav ul li {
+      margin: 1em .5em;
    }
 
    .logo {
@@ -365,7 +365,55 @@
 @media only screen and (max-width: 834px) {
 
    /*-----Nav-----*/
+   label, 
+   #toogle {
+      display: block;
+   }
+   
    nav {
+      position: fixed;
+      /* background-color: #FFFFFF; */
+      width: 100%;
+      z-index: 10;
+   }
+   
+   nav ul {
+      position: fixed;
+      width: 100%;
+      height: 35vh;
+      background: #BD354C;
+      opacity: 0.9;
+      top: 85px;
+      right: -100%;
+      text-align: center;
+      transition: .5s;
+      z-index: 10;
+   }
+   
+   nav ul li {
+      display: block;
+      margin: 40px 0;
+      line-height: 30px;
+   }
+   
+   nav ul li a {
+      font-size: 20px;
+      color: #FFFFFF;
+   }
+   
+   #toggle:checked ~ ul{
+      right: 0;
+   }
+   
+   .citas {
+     border-color: #FFFFFF;
+     background-color: #FFFFFF;
+     width: 40%;
+     margin: auto;
+     border-radius: 50px;
+   }
+
+   .promoLink {
       display: none;
    }
 
@@ -551,6 +599,9 @@
 @media only screen and (max-width: 768px) {
 
    /*-----Nav-----*/
+   nav ul {
+      height: 40vh;
+   }
    /*-----Intro-----*/
    .tagline {
       width: 75%;
@@ -677,7 +728,7 @@
 
 /*-----Responsive + Orientation-----*/
 @media only screen and (min-width: 414px) and (max-width: 896px) and (orientation: landscape) {
-   /*-----Intro-----*/
+    /*-----Intro-----*/
    .intro {
       overflow-y: hidden;
    }
@@ -938,16 +989,12 @@
 @media only screen and (max-width: 414px) {
 
    /*-----Nav-----*/
-   nav {
-      display: none;
+   nav ul {
+      height: 100vh;
    }
 
-   .fb {
-      display: none;
-   }
-
-   .tel {
-      display: block;
+   .citas {
+      width: 70%;
    }
 
    /*-----Intro-----*/
@@ -1595,6 +1642,10 @@
 
 @media only screen and (max-width: 375px) {
 
+   /*-----Nav-----*/
+   .citas {
+      width: 80%;
+   }
    /*-----Intro-----*/
    .tagline {
       width: 90%;
@@ -1700,7 +1751,15 @@
 
 @media only screen and (max-width: 320px) {
 
+   /*-----Nav-----*/
+   .citas {
+      width: 90%;
+   }
    /*-----Intro-----*/
+   .tel {
+      width: 90%;
+   }
+
    .tagline {
       font-size: .75rem;
    }
