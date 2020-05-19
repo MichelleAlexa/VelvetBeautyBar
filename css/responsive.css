@@ -1146,10 +1146,7 @@
    }
 
    .clinic-info {
-      background-size: contain;
-      -webkit-background-size:contain;
-      -moz-background-size:contain;
-      -o-background-size:contain;
+      background-position: 50% 50%;
    }
 
    .clinic-content {
