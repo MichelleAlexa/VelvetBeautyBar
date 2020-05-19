@@ -352,6 +352,7 @@ footer {
 .copyright {
    color: #9A9A9A;
    font-size: 1.25rem;
+   letter-spacing: 1px;
 }
 
 
@@ -551,6 +552,9 @@ footer {
 
    .menu-title-break {
       display: block;
+   }
+   .copyright {
+      font-size: 1rem;
    }
 
 }
