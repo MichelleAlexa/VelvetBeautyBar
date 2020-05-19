@@ -529,6 +529,9 @@
    }
 
    /*-----Clinic-----*/
+   .clinic-info {
+   
+   }
    .clinic .map iframe {
       height: 350px;
    }
