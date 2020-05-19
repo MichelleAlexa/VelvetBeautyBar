@@ -1145,10 +1145,6 @@
       margin: 0 auto;
    }
 
-   .clinic-info {
-      background-size: 100% auto;
-   }
-
    .clinic-content {
       flex-direction: column;
       height: 100%;
