@@ -1146,7 +1146,7 @@
    }
 
    .clinic-info {
-      background-position: 50% 50%;
+      background-size: contain;
    }
 
    .clinic-content {
