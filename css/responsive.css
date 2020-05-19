@@ -396,6 +396,10 @@
    #toggle:checked ~ ul{
       right: 0;
    }
+
+   header a:visited {
+      color: #FFFFFF;
+   }
    
    .citas {
      border-color: #FFFFFF;
