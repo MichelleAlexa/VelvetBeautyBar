@@ -529,9 +529,6 @@
    }
 
    /*-----Clinic-----*/
-   .clinic-info {
-   
-   }
    .clinic .map iframe {
       height: 350px;
    }
@@ -1146,6 +1143,10 @@
    /*-----Clinic-----*/
    .clinic {
       margin: 0 auto;
+   }
+
+   .clinic-info {
+      background-position: 50% 50%;
    }
 
    .clinic-content {
