@@ -810,6 +810,9 @@ footer {
    .menu-min {
       display: block;
    }
+   .copyright {
+      font-size: 1rem;
+   }
 }
 
 
