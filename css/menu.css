@@ -658,6 +658,10 @@ footer {
       font-size: 1.50rem;
    }
 
+   .includes {
+      margin: 10px 0;
+   }
+
    .footer-nav {
       display: none;
    }
