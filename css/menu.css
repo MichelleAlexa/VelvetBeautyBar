@@ -358,6 +358,15 @@ footer {
 
 
 /************************************************/
+/* @media only screen and (max-width: 1920px) {
+   .menu-price {
+      width: 30%;
+   }
+   .total {
+      width: 100%;
+   }
+} */
+
 @media only screen and (max-width: 1366px) {
    .menu p {
       font-size: 1.15rem;
