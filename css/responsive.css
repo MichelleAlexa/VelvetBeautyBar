@@ -38,6 +38,10 @@
       margin-top: 50px;
    }
 
+   .overlay {
+      width: 100%;
+   }
+
    /*-----Promos-----*/
    .promo-container {
       width: 1000px;
@@ -252,6 +256,7 @@
    /*-----Promos-----*/
    .promo {
       height: 950px;
+      overflow-y: hidden;
    }
 
    .promo-container {
@@ -468,8 +473,8 @@
    }
 
    .overlay {
-      width: 85%;
-      height: 85%;
+      width: 82%;
+      height: 90%;
    }
 
    /*-----Promo-----*/
@@ -1041,7 +1046,7 @@
    }
 
    .service-grid {
-      height: 1500px;
+      height: 1300px;
       margin: 20px auto;
       width: 90%;
    }
@@ -1683,7 +1688,8 @@
    }
 
    .service-grid {
-      height: 1450px;
+      /* height: 1450px; */
+      margin: 0 auto;
    }
 
    /*-----Promo-----*/
