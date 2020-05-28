@@ -6,6 +6,7 @@
 
    .intro {
       padding: 10vh 1em;
+      overflow-y: hidden;
    }
 }
 
