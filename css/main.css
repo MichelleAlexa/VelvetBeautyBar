@@ -287,8 +287,8 @@ label {
 /*-----Services-----*/
 .services {
    /* border: 1px solid royalblue; */
+   /* padding: 3em; */
    width: 90%;
-   padding: 3em;
    text-align: center;
    margin: 5em auto;
    overflow-x: hidden;
@@ -321,6 +321,7 @@ label {
 
 .services .section-title {
    color: #C74B72;
+   margin-top: 2em;
 }
 
 .image {
