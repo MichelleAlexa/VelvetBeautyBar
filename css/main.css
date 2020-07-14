@@ -161,8 +161,10 @@ nav ul li a {
    color: #333333;
 }
 
+
 nav a:hover{
    color: #C74B72;
+   border-bottom: 2px solid #C74B72;
 }
 
 .active {
@@ -200,6 +202,7 @@ label {
    display: none;
  }
 
+ 
 
 /*-----Intro-----*/
 .intro {
@@ -240,6 +243,7 @@ label {
    margin-left: auto;
    margin-right: auto;
 }
+
 
 /*-----About Us-----*/
 .about-us {
