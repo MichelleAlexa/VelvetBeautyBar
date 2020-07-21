@@ -392,6 +392,10 @@
       display: none;
    }
 
+   .sidebar a:hover, 
+   .sidebar a:focus {
+     border: none;
+   }
 
    .promoLink {
       display: none;
@@ -450,10 +454,6 @@
 
    .image {
       padding: 3%;
-   }
-
-   .overlay {
-      /* display: none; */
    }
 
    .menu-text {
@@ -593,6 +593,10 @@
    /*-----Intro-----*/
    .tagline {
       width: 75%;
+   }
+
+   .logo {
+      left: 20px;
    }
 
    /*-----About-----*/

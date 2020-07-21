@@ -592,9 +592,11 @@ footer {
    .sidebar .book {
       display: block;
    }
-   /* header a:visited {
-      color: #FFFFFF;
-   } */
+   
+   .sidebar a:hover, 
+   .sidebar a:focus {
+     border: none;
+   }
 
    .menu {
       width: 92%;
@@ -704,6 +706,7 @@ footer {
 
 
 @media only screen and (max-width: 414px) {
+   
    nav ul {
       height: 100vh;
    }
