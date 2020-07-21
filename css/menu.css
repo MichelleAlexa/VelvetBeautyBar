@@ -819,7 +819,7 @@ footer {
 
 @media only screen and (max-width: 375px) {
    .sidebar {
-      top: 15%;
+      top: 12%;
    }
 
    .sidebar .active {
