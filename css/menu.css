@@ -799,7 +799,7 @@ footer {
 
 @media only screen and (max-width: 375px) {
    .sidebar {
-      top: 12%;
+      top: 15%;
    }
 
    .sidebar .active {
@@ -879,7 +879,7 @@ footer {
    .sidebar a, .dropdown-btn {
       font-size: 1rem;
    }
-   
+
    .menu-heading span {
       font-size: 1rem;
    }

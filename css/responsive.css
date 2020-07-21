@@ -941,6 +941,9 @@
 @media only screen and (max-width: 375px) {
 
    /*-----Nav-----*/
+   .sidebar {
+      top: 15%;
+   }
    .openbtn {
       top: 0;
    }
@@ -1054,9 +1057,6 @@
 @media only screen and (max-width: 320px) {
 
    /*-----Nav-----*/
-   .sidebar {
-      top: 15%;
-   }
    .sidebar a, .dropdown-btn {
       font-size: 1rem;
    }
