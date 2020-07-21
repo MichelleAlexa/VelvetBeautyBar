@@ -232,8 +232,10 @@ nav a:hover {
 }
 
 .sidebar a:hover,
-.dropdown-btn:hover {
+.dropdown-btn:hover,
+.sidebar a:visited {
    border-bottom: 2px solid #EABFCB;
+   color: #FFFFFF;
 }
 
 .dropdown-container {
