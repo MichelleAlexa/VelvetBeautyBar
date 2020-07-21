@@ -363,74 +363,35 @@
 @media only screen and (max-width: 834px) {
 
    /*-----Nav-----*/
-   label, 
-   #toogle {
+   nav .sidebar, .openbtn {
       display: block;
    }
-   
+
+   .sidebar {
+      padding-top: 15px;
+   }
+
+   .sidebar a,
+   .dropdown-btn {
+      font-size: 1.50em;
+   }
+
+   .dropdown-container a {
+      font-size: 1.25em;
+   }
+
    nav {
       position: fixed;
-      /* background-color: #FFFFFF; */
+      background-color: #FFFFFF;
       width: 100%;
-      z-index: 10;
-   }
-   
-   nav ul {
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #BD354C;
-      opacity: 0.92;
-      top: 85px;
-      right: -100%;
-      text-align: center;
-      transition: .5s;
-      z-index: 10;
+      z-index: 1;
+      height: 100px;
    }
 
-   nav li {display: block;}
-   
-     nav ul li {
-      display: block;
-      margin: 40px 0;
-      line-height: 30px;
-   }
-   
-    nav ul li a {
-      font-size: 20px;
-      color: #FFFFFF;
-    }
-
-   nav ul li ul {
-       position: absolute;
-       right: 0;
-       display: list-item;
-       margin-top: 20px;
-       opacity: 0;
-       visibility: hidden;
-       display: block;
-    }
-
-    nav ul li:hover > ul {
-      color: #FF006E;
-    }
-
-   #toggle:checked ~ ul{
-      right: 0;
+   .citas, nav ul {
+      display: none;
    }
 
-   header a:visited {
-      color: #FFFFFF;
-   }
-
-   .citas {
-     border-color: #FFFFFF;
-     background-color: #FFFFFF;
-     width: 40%;
-     margin: auto;
-     border-radius: 50px;
-     box-shadow: 0px 5px 38px #FF006E;
-   }
 
    .promoLink {
       display: none;
@@ -478,10 +439,9 @@
    }
 
    .service-grid {
-      height: 1000px;
+      height: 700px;
       margin: 50px auto 10px;
       overflow-y: hidden;
-
    }
 
    .container {
@@ -493,7 +453,7 @@
    }
 
    .overlay {
-      display: none;
+      /* display: none; */
    }
 
    .menu-text {
@@ -532,6 +492,7 @@
    /*-----Social-----*/
    .contact-content {
       width: 100%;
+      margin-bottom: 0em;
    }
 
    .location {
@@ -553,7 +514,7 @@
    }
 
    .contact .map iframe {
-      height: 340px;
+      height: 350px;
    }
 
    /*-----Clinic-----*/
@@ -579,10 +540,13 @@
    }
 
    /*-----Footer-----*/
+   footer {
+      margin: 100px 0 10px 0;
+   }
+
    .footer-nav a {
       font-size: 1.25rem;
    }
-
    /*-----Clinic-----*/
    .clinic {
       width: 100%;

@@ -161,7 +161,6 @@ nav ul li a {
    color: #333333;
 }
 
-
 nav a:hover{
    color: #C74B72;
    border-bottom: 2px solid #C74B72;
@@ -172,37 +171,135 @@ nav a:hover{
 }
 
 .citas {
-   border: 2px solid #C74B72;
-   color: #C74B72;
+   color: #FFFFFF;
    padding: 8px 18px;
    letter-spacing: 2px;
+   border-radius: 5px;
+   background: linear-gradient(45deg, #fe3464, #BD354C);
+   box-shadow: 0 6px 25px rgba(254,52,100,0.4);
 }
 
-.citas:hover {
-   background-color: #C74B72;
-   color: #FFFFFF;
+.citas:hover, 
+.citas:focus {
+   background: none;
+   box-shadow: 0 12px 45px rgba(254,52,100,0.6);
+   color: #C74B72;
+   border: none;
 }
 
 .fb {
    display: block;
 }
 
-label {
-   font-size: 3em;
-   float: right;
-   /* color: #EF4B6C; */
-   color: #FFFFFF;
-   line-height: 80px;
-   margin-right: 30px;
-   cursor: pointer;
-   display: none;
- }
-
- #toggle{
-   display: none;
- }
-
  
+/*-----SIDEBAR MENU-----*/
+.sidebar {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 9%;
+   right: 0;
+   background-color: #BD354C;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 60px;
+   opacity: .97;
+   display: none;
+}
+
+.sidebar a {
+   padding: 10px 18px;
+   margin: 2em auto;
+   font-size: 1.05rem;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #FFFFFF;
+   display: block;
+   transition: 0.3s;
+   text-align: center;
+}
+
+.dropdown-btn {
+   font-family: 'Rubik', sans-serif;
+   background: none;
+   padding: 10px 18px;
+   margin: 2em auto;
+   font-size: 1.25rem;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #FFFFFF;
+   display: block;
+   transition: 0.3s;
+   text-align: center;
+   font-weight: 300;
+}
+
+.sidebar a:hover,
+.dropdown-btn:hover {
+   border-bottom: 2px solid #EABFCB;
+}
+
+.dropdown-container {
+   display: none;
+   padding-left: 45%;
+}
+
+.dropdown-container a {
+   text-align: left;
+   padding: 0px 18px;
+   color: #EABFCB;
+}
+
+.fa-caret-down {
+   float: right;
+   padding-left: 18px;
+}
+
+
+.sidebar .closebtn {
+   position: absolute;
+   top: 0;
+   right: 42px;
+   font-size: 3em;
+   margin-left: 50px;
+   margin: 0;
+}
+
+.openbtn {
+   font-size: 3em;
+   cursor: pointer;
+   color: #FFFFFF;
+   padding: 10px 15px;
+   border: none;
+   right: 5%;
+   background: none;
+   position: fixed;
+   display: none;
+}
+
+.sidebar .book {
+   border-color: #FFFFFF;
+   background-color: #FFFFFF;
+   width: 40%;
+   margin: 1em auto;
+   padding: 12px 18px;
+   border-radius: 50px;
+   box-shadow: 0px 5px 38px #FF006E;
+   color: #FF006E;
+   text-align: center;
+}
+
+#main {
+   transition: margin-right .5s;
+   padding: 16px;
+}
+
+.sidebar .active {
+   border-bottom: 2px solid rgba(234, 191, 203, .3);
+   width: 20%;
+}
+
 
 /*-----Intro-----*/
 .intro {

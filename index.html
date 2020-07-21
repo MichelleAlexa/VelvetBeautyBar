@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
    <!-- Meta Tags -->
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="format-detection" content="telephone=no"> 
+   <meta name="format-detection" content="telephone=no">
    <meta name="author" content="Velvet Beauty Bar">
    <meta name="description" content="Home Page">
-   
+
    <title>Veltvet | Home</title>
-   
+
    <!-- Stylesheets -->
    <link rel="stylesheet" media="only screen and (color)" type="text/css" href="css/main.css">
    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
    <!-- Fonts -->
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Rubik:300,400,500|Cinzel:400,700&display=swap" rel="stylesheet">
+   <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Rubik:300,400,500|Cinzel:400,700&display=swap"
+      rel="stylesheet">
 
 </head>
 
@@ -26,19 +29,32 @@
       <header id="top">
          <nav class="clearfix">
 
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle" />
             <a href="index.html"><img src="img/branding/logoHeart.png" class="logo" alt="Velvet's Heart Logo"></a>
             <ul>
                <li><a href="index.html">Inicio</a></li>
-               <li><a href="menu.html">Servicios</a></li>
+               <li><a href="menu.html">Tratamientos</a></li>
                <li><a href="combos.html">Paquetes</a></li>
                <li><a href="index.html#promo">Promos</a></li>
                <li><a href="contact.html">Contacto</a></li>
-               <li><a href="https://fb.com/book/velvetbeautybartoluca/" class="citas fb">Citas 722.675.8311</a></li>             
+               <li><a href="https://fb.com/book/velvetbeautybartoluca/" class="citas fb">Citas 722.675.8311</a></li>
             </ul>
+
+            <div id="mySidebar" class="sidebar">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+               <a href="index.html" class="active">Inicio</a>
+               <a href="menu.html">Tratamientos</a>
+               <a href="combos.html">Paquetes</a>
+               <a href="index.html#promo">Promos</a>
+               <a href="contact.html">Contacto</a>
+               <a href="https://fb.com/book/velvetbeautybartoluca/" class="book fb">Agenda tu Cita</a>
+            </div>
+
+            <div id="main">
+               <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
+
          </nav>
-         
+
          <!-- Intro -->
          <section class="intro" id="intro">
             <h3 class="section-title">Bienvenidos a</h3>
@@ -47,62 +63,67 @@
          </section>
       </header>
 
-   <main>
-      <section class="about-us" id="about">
-         <h3 class="moto">Rejuvenece. Restaura. Consientete</h3>
+      <main>
+         <section class="about-us" id="about">
+            <h3 class="moto">Rejuvenece. Restaura. Consientete</h3>
 
-         <div class="about-us-content">
-            <div class="about-us-video">
-               <video controls preload="metadata" width="520" height="520" poster="img/branding/introAline.jpg" style="object-fit: cover">
-                  <source src="img/branding/introVid.mp4" type="video/mp4">
-               </video>
-            </div> <!-- Video -->
-   
-            <!-- Small background on Velvet -->
-            <div class="about-us-body">
-               <p><span>Velvet Beauty Bar</span> Un nuevo concepto en clínicas de belleza!</p><br>
-               <p>Reunimos en un solo lugar a especialistas profesionales en BELLEZA ESTÉTICA, y CUIDADO PERSONAL. Disponemos de lo más avanzado en tecnología ELECTROESTÉTICA no invasiva.</p><br>
-               <p>Donde podrás disfrutar de sus instalaciones con un ambiente relajado consintiendo a sus clientes con una deliciosa copa de vino.</p><br>
-               <p><span>Que esperas ven a conocernos!</span></p>
-   
-               <!-- <a href="menu.html" class="about-us-btn">Menu</a> -->
-            </div>
-         </div> <!-- end of about content-->
-         
-      </section> <!-- end of about section-->
-   </main>
+            <div class="about-us-content">
+               <div class="about-us-video">
+                  <video controls preload="metadata" width="520" height="520" poster="img/branding/introAline.jpg"
+                     style="object-fit: cover">
+                     <source src="img/branding/introVid.mp4" type="video/mp4">
+                  </video>
+               </div> <!-- Video -->
+
+               <!-- Small background on Velvet -->
+               <div class="about-us-body">
+                  <p><span>Velvet Beauty Bar</span> Un nuevo concepto en clínicas de belleza!</p><br>
+                  <p>Reunimos en un solo lugar a especialistas profesionales en BELLEZA ESTÉTICA, y CUIDADO PERSONAL.
+                     Disponemos de lo más avanzado en tecnología ELECTROESTÉTICA no invasiva.</p><br>
+                  <p>Donde podrás disfrutar de sus instalaciones con un ambiente relajado consintiendo a sus clientes
+                     con una deliciosa copa de vino.</p><br>
+                  <p><span>Que esperas ven a conocernos!</span></p>
+
+                  <!-- <a href="menu.html" class="about-us-btn">Menu</a> -->
+               </div>
+            </div> <!-- end of about content-->
+
+         </section> <!-- end of about section-->
+      </main>
 
       <section class="services" id="services">
-         <h1 class="section-title">Servicios</h1>
+         <h1 class="section-title">Tratamientos</h1>
 
          <div class="service-grid">
             <div class="container">
-               <a href="menu.html"><img src="img/assets/services/face_thumb.png" class="image" alt="Tratamientos faciales">
-               <div class="overlay">
-                  <div class="overlay-text">
+               <a href="menu.html"><img src="img/assets/services/face_thumb.png" class="image"
+                     alt="Tratamientos faciales">
+                  <div class="overlay">
+                     <div class="overlay-text">
+                        <h4>Faciales</h4>
+                        <p class="sub-heading">Info</p>
+                     </div>
+                  </div>
+                  <div class="menu-text">
                      <h4>Faciales</h4>
                      <p class="sub-heading">Info</p>
                   </div>
-               </div>
-               <div class="menu-text">
-                  <h4>Faciales</h4>
-                  <p class="sub-heading">Info</p>
-               </div>
                </a>
             </div> <!-- end of service 1 -->
 
             <div class="container">
-               <a href="menu.html#body"><img src="img/assets/services/skin_thumb.png" class="image" alt="Tratamientos corporales">
-               <div class="overlay">
-                  <div class="overlay-text">
+               <a href="menu.html#body"><img src="img/assets/services/skin_thumb.png" class="image"
+                     alt="Tratamientos corporales">
+                  <div class="overlay">
+                     <div class="overlay-text">
+                        <h4>Corporales</h4>
+                        <p class="sub-heading">Info</p>
+                     </div>
+                  </div>
+                  <div class="menu-text">
                      <h4>Corporales</h4>
                      <p class="sub-heading">Info</p>
                   </div>
-               </div>
-               <div class="menu-text">
-                  <h4>Corporales</h4>
-                  <p class="sub-heading">Info</p>
-               </div>
                </a>
             </div> <!-- end of service 1 -->
 
@@ -121,7 +142,7 @@
                </div>
                </a>
             </div> -->
-           
+
             <!-- FIBROBLAST
             <div class="container">
                <a href="fibroblast.html"><img src="" class="image" alt="Tratamiento fibroblast">
@@ -137,43 +158,45 @@
                </div>
                </a>
             </div> -->
-            
+
             <div class="container">
-               <a href="menu.html#eyes"><img src="img/assets/services/eyes_thumb.png" class="image" alt="Tratamientos ojos">
-               <div class="overlay">
-                  <div class="overlay-text">
+               <a href="menu.html#eyes"><img src="img/assets/services/eyes_thumb.png" class="image"
+                     alt="Tratamientos ojos">
+                  <div class="overlay">
+                     <div class="overlay-text">
+                        <h4>Cejas & Pestañas</h4>
+                        <p class="sub-heading">Info</p>
+                     </div>
+                  </div>
+                  <div class="menu-text">
                      <h4>Cejas & Pestañas</h4>
                      <p class="sub-heading">Info</p>
                   </div>
-               </div>
-               <div class="menu-text">
-                  <h4>Cejas & Pestañas</h4>
-                  <p class="sub-heading">Info</p>
-               </div>
-               </a>  
+               </a>
             </div>
-            
+
             <div class="container">
-               <a href="menu.html#other"><img src="img/assets/services/other_thumb.png" class="image" alt="Más tratamientos">
-               <div class="overlay">
-                  <div class="overlay-text">
-                     <h4>Otros</h4> 
+               <a href="menu.html#other"><img src="img/assets/services/other_thumb.png" class="image"
+                     alt="Más tratamientos">
+                  <div class="overlay">
+                     <div class="overlay-text">
+                        <h4>Otros</h4>
+                        <p class="sub-heading">Info</p>
+                     </div>
+                  </div>
+                  <div class="menu-text">
+                     <h4>Otros</h4>
                      <p class="sub-heading">Info</p>
                   </div>
-               </div>
-               <div class="menu-text">
-                  <h4>Otros</h4> 
-                  <p class="sub-heading">Info</p>
-               </div>
                </a>
-            </div> 
+            </div>
 
             <!-- end of service 1 -->
             <div class="container x"></div>
-            
+
             <!-- end of service 1 -->
-            <div class="container x"></div> 
-            
+            <div class="container x"></div>
+
          </div> <!-- End of Service GRID -->
       </section> <!-- End of Services SECTION -->
 
@@ -186,18 +209,24 @@
                <div class="promo-content" id="news">
                   <h2 class="promo-title">Covid-19</h2>
                   <p class="promo-highlight">#YoMeQuedoEnCasa</p>
-                  <p class="promo-body">Debido a la situación que estamos atravesando, <span>tomamos la decisión de cerrar de manera temporal</span>, hasta que la contigencia haya pasado.<br><br>El objetivo de Velvet Beauty Bar siempre será que salgas mejor de como entraste!</nr></p>
-                  <a href="https://www.instagram.com/p/B-FqqKGn5uC/" target="_blank" class="promo-btn">Detalles</a>           
-               </div>               
+                  <p class="promo-body">Debido a la situación que estamos atravesando, <span>tomamos la decisión de
+                        cerrar de manera temporal</span>, hasta que la contigencia haya pasado.<br><br>El objetivo de
+                     Velvet Beauty Bar siempre será que salgas mejor de como entraste!</nr>
+                  </p>
+                  <a href="https://www.instagram.com/p/B-FqqKGn5uC/" target="_blank" class="promo-btn">Detalles</a>
+               </div>
             </div> <!-- end of card -->
-            
+
             <div class="promo-card">
                <div class="promo-content" id="promo">
                   <h4 class="promo-title">Velvet Night</h4>
                   <p class="promo-highlight">#BellezaConConciencia</p>
-                  <p class="promo-body">A partir de 1o de Agosto  los JUEVES cerramos a las 8pm!<br><br>Ven y disfruta de "Velvet Night" con un nuevo horario porque sabemos que necesitas tiempo para ti!<br><br><span>Todos los Jueves!</span></p>
-                  <a href="https://fb.com/book/velvetbeautybartoluca/" target="_blank" class="promo-btn long">Agenda Cita</a> 
-               </div>               
+                  <p class="promo-body">A partir de 1o de Agosto los JUEVES cerramos a las 8pm!<br><br>Ven y disfruta de
+                     "Velvet Night" con un nuevo horario porque sabemos que necesitas tiempo para ti!<br><br><span>Todos
+                        los Jueves!</span></p>
+                  <a href="https://fb.com/book/velvetbeautybartoluca/" target="_blank" class="promo-btn long">Agenda
+                     Cita</a>
+               </div>
             </div> <!-- end of card -->
 
          </div> <!-- end of promo container-->
@@ -207,26 +236,32 @@
          <div class="contact-content">
             <div class="location">
                <h3>Maria Curie 1003 2do Piso Esq.con Alfedro del Mazo<br>Col. Cientificos Toluca, Mexico 50075</h3>
-               
+
                <div class="map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.449966910558!2d-99.63165968457099!3d19.306271328778703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8a03b8b0c45b%3A0x4f96e2c73a61c1ea!2sCalle%20Mar%C3%ADa%20Curie%201003%2C%20Las%20Torres%2C%2050075%20Toluca%20de%20Lerdo%2C%20M%C3%A9x.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1586287754753!5m2!1sen!2sus" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  <iframe
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.449966910558!2d-99.63165968457099!3d19.306271328778703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8a03b8b0c45b%3A0x4f96e2c73a61c1ea!2sCalle%20Mar%C3%ADa%20Curie%201003%2C%20Las%20Torres%2C%2050075%20Toluca%20de%20Lerdo%2C%20M%C3%A9x.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1586287754753!5m2!1sen!2sus"
+                     width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                     tabindex="0"></iframe>
                </div> <!-- end of map-->
             </div> <!-- end of location -->
-   
+
             <div class="insta" id="insta">
                <h3>Conocenos mas en<br>
-               <br>
-               <a href="https://www.instagram.com/velvetbeautybar_toluca/" target="_blank">@velvetbeautybar_toluca</a></h3>
-   
+                  <br>
+                  <a href="https://www.instagram.com/velvetbeautybar_toluca/"
+                     target="_blank">@velvetbeautybar_toluca</a></h3>
+
                <div class="feed">
                   <div class="feed-content">
-                     <a href="https://www.instagram.com/velvetbeautybar_toluca/"><img src="img/branding/introAline.jpg"></a>
+                     <a href="https://www.instagram.com/velvetbeautybar_toluca/"><img
+                           src="img/branding/introAline.jpg"></a>
                   </div>
                   <div class="feed-content">
                      <a href="https://www.instagram.com/velvetbeautybar_toluca/"><img src="img/branding/equip.jpg"></a>
                   </div>
                   <div class="feed-content">
-                     <a href="https://www.instagram.com/velvetbeautybar_toluca/"><img src="img/branding/opening.jpg"></a>
+                     <a href="https://www.instagram.com/velvetbeautybar_toluca/"><img
+                           src="img/branding/opening.jpg"></a>
                   </div>
                   <div class="feed-content">
                      <a href="https://www.instagram.com/velvetbeautybar_toluca/"><img src="img/branding/place.jpg"></a>
@@ -241,14 +276,16 @@
          <div class="footer-nav">
             <ul>
                <li><a href="#top">Inicio</a>|</li>
-               <li><a href="menu.html">Servicios</a>|</li>
+               <li><a href="menu.html">Tratamientos</a>|</li>
                <li><a href="contact.html">Contacto</a></li>
             </ul>
          </div> <!-- end footer-nav-->
 
          <div class="social" id="social">
-            <a href="https://www.facebook.com/velvetbeautybartoluca/"><img src="img/assets/icons/facebook.svg" target="_blank" alt="facebook icon"></a>
-            <a href="https://www.instagram.com/velvetbeautybar_toluca/"><img src="img/assets/icons/instagram.svg" target="_blank" alt="instagram icon"></a>
+            <a href="https://www.facebook.com/velvetbeautybartoluca/"><img src="img/assets/icons/facebook.svg"
+                  target="_blank" alt="facebook icon"></a>
+            <a href="https://www.instagram.com/velvetbeautybar_toluca/"><img src="img/assets/icons/instagram.svg"
+                  target="_blank" alt="instagram icon"></a>
             <a href="tel:7226758311"><img src="img/assets/icons/whatsapp.svg" target="_blank" alt="email icon"></a>
          </div> <!-- end footer social links-->
 
@@ -257,7 +294,9 @@
 
    </div> <!-- End of wrapper-->
 
+   <!-- JS -->
    <script type="text/javascript" src="script.js"></script>
-   </body>   
-</html>
 
+</body>
+
+</html>
