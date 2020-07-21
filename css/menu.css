@@ -236,10 +236,6 @@ nav a:hover {
    border-bottom: 2px solid #EABFCB;
 }
 
-.sidebar a:visited, {
-   color: #FFFFFF;
-}
-
 .dropdown-container {
    display: none;
    padding-left: 45%;
