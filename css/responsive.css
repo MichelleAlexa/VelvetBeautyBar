@@ -726,6 +726,10 @@
       height: 100vh;
    }
 
+   .openbtn {
+      top: 5px;
+   }
+
    .sidebar {
       top: 11%;
    }

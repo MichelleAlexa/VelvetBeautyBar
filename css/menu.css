@@ -163,13 +163,13 @@ nav a:hover {
    letter-spacing: 2px;
    border-radius: 5px;
    background: linear-gradient(45deg, #fe3464, #BD354C);
-   box-shadow: 0 6px 25px rgba(254,52,100,0.4);
+   box-shadow: 0 6px 25px rgba(254, 52, 100, 0.4);
 }
 
-.citas:hover, 
+.citas:hover,
 .citas:focus {
    background: none;
-   box-shadow: 0 12px 45px rgba(254,52,100,0.6);
+   box-shadow: 0 12px 45px rgba(254, 52, 100, 0.6);
    color: #C74B72;
    border: none;
 }
@@ -532,6 +532,11 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
+   .logo {
+      top: 15px;
+      width: 70px;
+   }
+
    h1 {
       font-size: 1.50rem;
    }
@@ -560,7 +565,8 @@ footer {
       border: 1px solid #FFFFFF;
    }
 
-   nav .sidebar, .openbtn {
+   nav .sidebar,
+   .openbtn {
       display: block;
    }
 
@@ -585,17 +591,18 @@ footer {
       height: 100px;
    }
 
-   .citas, nav ul {
+   .citas,
+   nav ul {
       display: none;
    }
 
    .sidebar .book {
       display: block;
    }
-   
-   .sidebar a:hover, 
+
+   .sidebar a:hover,
    .sidebar a:focus {
-     border: none;
+      border: none;
    }
 
    .menu {
@@ -706,16 +713,22 @@ footer {
 
 
 @media only screen and (max-width: 414px) {
-   
+
    nav ul {
       height: 100vh;
    }
+
+   .openbtn {
+      top: 5px;
+   }
+
 
    .sidebar {
       top: 11%;
    }
 
-   .sidebar a, .dropdown-btn {
+   .sidebar a,
+   .dropdown-btn {
       font-size: 1.25rem;
    }
 
@@ -879,7 +892,8 @@ footer {
       top: 17%;
    }
 
-   .sidebar a, .dropdown-btn {
+   .sidebar a,
+   .dropdown-btn {
       font-size: 1rem;
    }
 
