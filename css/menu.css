@@ -252,7 +252,6 @@ nav a:hover {
    padding-left: 18px;
 }
 
-
 .sidebar .closebtn {
    position: absolute;
    top: 0;
@@ -703,53 +702,34 @@ footer {
 
 }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
-
-   .menu {
-      margin: 0 auto;
-   }
-
-   .menu-container {
-      width: 90%;
-   }
-
-   .menu-heading {
-      margin: 2%;
-   }
-
-   .menu-heading h1,
-   .total h1 {
-      font-size: 1.50rem;
-   }
-
-   .menu-title-og {
-      display: block;
-   }
-
-   .menu-title-break {
-      display: none;
-   }
-
-   .menu-info h3 {
-      font-size: 1.25rem;
-   }
-
-   .menu-info span {
-      font-size: 1rem;
-   }
-
-   .menu-price h2 {
-      font-size: 1.25rem;
-   }
-
-   .menu-info p {
-      font-size: 1rem;
-   }
-}
 
 @media only screen and (max-width: 414px) {
    nav ul {
       height: 100vh;
+   }
+
+   .sidebar {
+      top: 11%;
+   }
+
+   .sidebar a, .dropdown-btn {
+      font-size: 1.25rem;
+   }
+
+   .sidebar .book {
+      width: 70%;
+   }
+
+   .sidebar .active {
+      width: 60%;
+   }
+
+   .dropdown-container {
+      padding-left: 25%;
+   }
+
+   .dropdown-container a {
+      font-size: 1rem;
    }
 
    .menu-container {
@@ -816,98 +796,16 @@ footer {
    }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
-   .menu-price h2 {
-      font-size: 1.25rem;
-   }
-
-   .menu-info span {
-      font-size: 1rem;
-   }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
-   .menu {
-      margin: 2em auto;
-   }
-
-   .menu-heading {
-      margin: 2%;
-   }
-
-   .menu-heading h1,
-   .total h1 {
-      font-size: 1.50rem;
-   }
-
-   .menu-heading span {
-      font-size: 1.25rem;
-   }
-
-   .menu-title-og {
-      display: block;
-   }
-
-   .menu-title-break {
-      display: none;
-   }
-
-   .menu-info span {
-      font-size: 1rem;
-   }
-
-   .menu-info h3 {
-      font-size: 1.125rem;
-   }
-
-   .menu-price h2 {
-      font-size: 1.25rem;
-   }
-
-   .menu-og-micro {
-      display: none;
-   }
-
-   .menu-micro {
-      display: block;
-   }
-
-   .menu-micro span,
-   .menu-min span {
-      font-size: 1.25rem;
-   }
-
-   .menu-info p {
-      font-size: 1rem;
-   }
-}
-
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
-   .menu-container {
-      flex-direction: column;
-      padding: 1%;
-      margin: 2em auto;
-      width: 90%;
-   }
-
-   .total {
-      display: none;
-   }
-
-   .menu-info {
-      width: 100%;
-      margin: 0;
-   }
-
-   .menu-price {
-      width: 100%;
-      text-align: left;
-      margin-top: 1em;
-   }
-}
 
 @media only screen and (max-width: 375px) {
+   .sidebar {
+      top: 12%;
+   }
+
+   .sidebar .active {
+      width: 70%;
+   }
+
    .menu-container {
       flex-direction: column;
       padding: 1%;
@@ -974,6 +872,14 @@ footer {
 
 
 @media only screen and (max-width: 320px) {
+   .sidebar {
+      top: 17%;
+   }
+
+   .sidebar a, .dropdown-btn {
+      font-size: 1rem;
+   }
+   
    .menu-heading span {
       font-size: 1rem;
    }
