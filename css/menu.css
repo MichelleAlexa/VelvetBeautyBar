@@ -232,9 +232,12 @@ nav a:hover {
 }
 
 .sidebar a:hover,
-.dropdown-btn:hover,
-.sidebar a:visited {
+.dropdown-btn:hover {
    border-bottom: 2px solid #EABFCB;
+}
+
+.sidebar a:visited,
+.dropdown-container a:visited {
    color: #FFFFFF;
 }
 
