@@ -293,6 +293,10 @@ nav a:hover {
    text-align: center;
 }
 
+.sidebar .book:visited {
+   color: #FF006E;
+}
+
 #main {
    transition: margin-right .5s;
    padding: 16px;
