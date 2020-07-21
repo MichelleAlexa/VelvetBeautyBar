@@ -44,16 +44,16 @@
          </ul>
             
          <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10539;</a>
             <a href="index.html">Inicio</a>
             <button class="dropdown-btn active">Tratamientos
                <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-container">
-               <a href="menu.html#face">- Faciales</a>
-               <a href="menu.html#body">- Corporales</a>
-               <a href="menu.html#eyes">- Cejas + Pestañas</a>
-               <a href="menu.html#other">- Otros</a>
+               <a href="menu.html#face" onclick="closeToggle()">- Faciales</a>
+               <a href="menu.html#body"  onclick="closeToggle()">- Corporales</a>
+               <a href="menu.html#eyes" onclick="closeToggle()">- Cejas + Pestañas</a>
+               <a href="menu.html#other" onclick="closeToggle()">- Otros</a>
             </div>
             <a href="combos.html">Paquetes</a>
             <a href="index.html#promo">Promos</a>
@@ -71,7 +71,7 @@
       </header>
       
    <!-- Menu FACE -->
-   <section class="menu" id="face top">
+   <section class="menu" id="face">
       <div class="menu-grid">
 
          <!-- Heading -->

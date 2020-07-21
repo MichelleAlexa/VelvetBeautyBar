@@ -46,16 +46,16 @@
             </ul>
 
             <div id="mySidebar" class="sidebar">
-               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10539;</a>
                <a href="index.html">Inicio</a>
                <a href="menu.html">Tratamientos</a>
                <button class="dropdown-btn active">Paquetes
                   <i class="fa fa-caret-down"></i>
                </button>
                <div class="dropdown-container">
-                  <a href="combos.html#face">- Faciales</a>
-                  <a href="combos.html#body">- Corporales</a>
-                  <a href="#">- Fibroblast</a>
+                  <a href="combos.html#face" onclick="closeToggle()">- Faciales</a>
+                  <a href="combos.html#body" onclick="closeToggle()">- Corporales</a>
+                  <a href="#" onclick="closeToggle()">- Fibroblast</a>
                </div>
                <a href="index.html#promo">Promos</a>
                <a href="contact.html">Contacto</a>
@@ -72,7 +72,7 @@
       </header>
 
       <!-- Combo FACE -->
-      <section class="menu" id="face top">
+      <section class="menu" id="face">
          <div class="menu-grid">
 
             <!-- Heading -->
