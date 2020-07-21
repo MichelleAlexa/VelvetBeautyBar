@@ -236,8 +236,7 @@ nav a:hover {
    border-bottom: 2px solid #EABFCB;
 }
 
-.sidebar a:visited,
-.dropdown-container a:visited {
+.sidebar a:visited, {
    color: #FFFFFF;
 }
 
@@ -249,6 +248,10 @@ nav a:hover {
 .dropdown-container a {
    text-align: left;
    padding: 0px 18px;
+   color: #EABFCB;
+}
+
+.dropdown-container a:visited {
    color: #EABFCB;
 }
 
