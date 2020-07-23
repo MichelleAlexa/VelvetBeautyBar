@@ -686,6 +686,9 @@ footer {
    .total h1 {
       font-size: 2rem;
    }
+   footer {
+      margin: 100px auto 0;
+   }
 }
 
 
@@ -783,6 +786,10 @@ footer {
       width: 100%;
    }
 
+   .menu {
+      margin-bottom: 0;
+   }
+
    .total {
       display: none;
    }
@@ -828,6 +835,10 @@ footer {
 
    .includes {
       margin-bottom: 0;
+   }
+
+   footer {
+      margin: 0 auto;
    }
 
    .footer-nav {
