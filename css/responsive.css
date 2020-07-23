@@ -880,7 +880,7 @@
    }
 
    .feed-content {
-      margin: 2% 1%;
+      margin: 2% 1.55%;
       width: 182px;
       height: 182px;
    }
@@ -1041,6 +1041,7 @@
    }
 
    .feed-content {
+      margin: 2% 1.75%;
       width: 163px;
       height: 163px;
    }
@@ -1165,7 +1166,7 @@
    }
 
    .feed-content {
-      margin: 2%;
+      margin: 2% 2.25%;
       width: 135px;
       height: 135px;
    }
