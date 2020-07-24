@@ -306,14 +306,19 @@ nav a:hover {
 }
 
 /*-----SERVICES-----*/
-#face:before,
 #fibro:before {
    content:"";
    display:block;
    height: 50px; /* fixed header height*/
    margin:-90px 0 0; /* negative fixed header height */
    }
-
+#face:before {
+   content:"";
+   display:block;
+   height: 100px; /* fixed header height*/
+   margin:-90px 0 0; /* negative fixed header height */
+   }
+}
 #body:before,
 #eyes:before,
 #other:before {
