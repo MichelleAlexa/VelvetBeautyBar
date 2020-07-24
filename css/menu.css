@@ -97,6 +97,7 @@ span {
 nav {
    height: 100px;
    overflow: visible;
+   margin-bottom: 5em;
 }
 
 nav ul {
@@ -320,11 +321,12 @@ nav a:hover {
    height: 200px; /* fixed header height*/
    margin:-90px 0 0; /* negative fixed header height */
    }
+
 .menu {
    /* border: 1px solid royalblue; */
    width: 80%;
    padding: 1em;
-   margin: 5em auto 10em;
+   margin: 3em auto;
 }
 
 .menu-grid {
@@ -342,6 +344,7 @@ nav a:hover {
 .combo-title {
    font-weight: 300;
 }
+
 
 .menu-container {
    /* border: 1px solid fuchsia; */
@@ -438,6 +441,71 @@ nav a:hover {
    display: none;
 }
 
+/*-----Fibro-----*/
+.fibro-info {
+   background-image: linear-gradient(#F2D4DD, #FFFFFF);
+   width: 100%;
+   height: 1100px;
+   padding: 3em auto;
+   margin: 5em auto;
+   text-align: center;
+   overflow-y: hidden;
+   /* border: 1px solid black */
+}
+
+.fibro .section-title {
+   color: #C74B72;
+   margin: 0 auto  1em;
+   text-align: left;
+}
+
+.fibro {
+   /* border: 1px solid teal; */
+   width: 100%;
+   max-width: 1500px;
+   margin: 8% auto;
+   padding: 1em;
+   display: flex;
+}
+
+.fibro-img {
+   /* border: 1px solid orange; */
+   width: 50%;
+   margin: auto;
+}
+
+.fibro-content {
+   /* border: 1px solid pink; */
+   width: 40%;
+   padding: 0 1%;
+   margin: 1% auto;
+   position: relative;
+}
+
+.fibro-content p {
+   font-size: 1.25rem;
+   color: #525962;
+   font-weight:400;
+   letter-spacing: 1px;
+   z-index: 2;
+   line-height: 1.5;
+   text-align: left;
+}
+
+.menu .moto {
+   /* border: 1px solid khaki; */
+   width: 75%;
+   font-size: 1.50rem;
+   text-align: center;
+   margin: 0em auto 6em;
+   color: #C74B72;
+}
+
+.fibro .up {
+   display: none;
+   font-size: 2rem;
+   text-align: center;
+}
 
 /*-----Footer-----*/
 footer {
@@ -520,7 +588,34 @@ footer {
    }
 }
 
+@media only screen and (max-width: 1440px) {
+   .fibro-info {
+      height: 100vh;
+      padding: 3%;
+   }
+
+   .fIntro {
+      width: 90%;
+   }
+
+   .fibro-content p {
+      font-size: 1.15rem;
+   }
+
+   .menu .moto {
+      width: 90%;
+   }
+
+}
+
 @media only screen and (max-width: 1366px) {
+   .fibro-info {
+      height: 900px;
+   }
+   .fibro-content p {
+      font-size: 1.05rem;
+   }
+
    .menu-info {
       width: 90%;
    }
@@ -537,9 +632,8 @@ footer {
 
 @media only screen and (max-width: 1112px) {
 
-   /*-----Header-----*/
-   nav {
-      height: 160px;
+   .fIntro {
+      width: 100%;
    }
 
    /*-----Menu-----*/
@@ -561,13 +655,26 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
+   
    .logo {
       top: 15px;
       width: 70px;
    }
-
+   
    nav ul li {
       margin-left: 0;
+   }
+   
+   .fibro-img{
+      margin: 5% auto;
+   }
+
+   .fibro-content h1 {
+      font-size: 2em;
+   }
+
+   .menu .moto {
+      width: 100%;
    }
 
    h1 {
@@ -636,6 +743,35 @@ footer {
    .sidebar a:hover,
    .sidebar a:focus {
       border: none;
+   }
+
+   #fibro:before {
+      content:"";
+      display:block;
+      height: 200px; /* fixed header height*/
+      margin:-90px 0 0; /* negative fixed header height */
+   }
+
+   .fibro-info {
+      margin-top: 0;
+   }
+
+   .fibro {
+      padding: .50em;
+   }
+
+   .fibro-content {
+      width: 60%;
+      float: right;
+      margin-left: 3%;
+   }
+
+   .fibro .section-title {
+      margin-bottom: .50em;
+   }
+
+   .menu .moto {
+      font-size: 1.25rem;
    }
 
    .menu {
@@ -724,6 +860,30 @@ footer {
       left: 20px;
    }
 
+   .fibro-info {
+      height: 1300px;
+   }
+
+   .fibro {
+      flex-direction: column;
+      margin: 3% auto;
+   }
+
+   .fibro-content {
+      width: 90%;
+      margin: 1em auto;
+      padding: 2%;
+   }
+
+   .fibro-img {
+      width: 60%;
+      margin-top: 0;
+   }
+
+   .fibro-content p {
+      font-size: ;
+   }
+
    .menu {
       width: 100%;
    }
@@ -758,7 +918,6 @@ footer {
       top: 5px;
    }
 
-
    .sidebar {
       top: 11%;
    }
@@ -784,6 +943,24 @@ footer {
       font-size: 1rem;
    }
 
+   .fibro-info {
+      height: auto;
+      margin-bottom: 0em;
+   }
+
+   .fibro-img {
+      width: 90%;
+   }
+
+   .fibro-content {
+      padding: 3%;
+   }
+
+   .menu .moto {
+      width: 80%;
+      margin-bottom: 4em;
+   }
+
    .menu-container {
       flex-direction: column;
       padding: 1%;
@@ -793,6 +970,7 @@ footer {
 
    .menu {
       margin-bottom: 0;
+      margin-top: 3em;
    }
 
    .total {
@@ -874,6 +1052,10 @@ footer {
 
    .total {
       display: none;
+   }
+
+   .menu .moto {
+      width: 100%;
    }
 
    .menu-info {
