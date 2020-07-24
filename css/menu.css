@@ -198,7 +198,8 @@ nav a:hover {
    z-index: 1;
    top: 9%;
    right: 0;
-   background-color: #BD354C;
+   /* background-color: #BD354C; */
+   background-color: #8F2D56;
    overflow-x: hidden;
    transition: 0.5s;
    padding-top: 60px;
