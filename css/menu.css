@@ -318,7 +318,7 @@ nav a:hover {
    height: 100px; /* fixed header height*/
    margin:-90px 0 0; /* negative fixed header height */
    }
-}
+
 #body:before,
 #eyes:before,
 #other:before {
@@ -782,7 +782,6 @@ footer {
 
    .menu {
       width: 92%;
-      margin: 7em auto;
    }
 
    .menu-container {
@@ -884,10 +883,6 @@ footer {
    .fibro-img {
       width: 60%;
       margin-top: 0;
-   }
-
-   .fibro-content p {
-      font-size: ;
    }
 
    .menu {
