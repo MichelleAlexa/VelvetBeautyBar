@@ -114,7 +114,7 @@ span {
 }
 
 header {
-   max-width: 2500px;
+   /* max-width: 2500px; */
    margin: auto;
    position: relative;
    /* border: 1px solid cyan; */

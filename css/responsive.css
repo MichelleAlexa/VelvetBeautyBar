@@ -1,14 +1,23 @@
 /*-----Responsive-----*/
-@media only screen and (max-width: 1920px) {
-   .logoName {
-      width: 20%;
+   @media only screen and (max-width: 3840px) {
+      .logoName {
+         width: 15%;
+      }
+   
+      .intro {
+         padding: 10vh 1em;
+         height: 50vh;
+         overflow-y: hidden;
+      }
    }
 
-   .intro {
-      padding: 10vh 1em;
-      overflow-y: hidden;
+   @media only screen and (max-width: 1920px) {
+      .logoName {
+         width: 20%;
+      }
+   
+      .intro { height: 75vh; }
    }
-}
 
 @media only screen and (max-width: 1440px) {
    h3 {
