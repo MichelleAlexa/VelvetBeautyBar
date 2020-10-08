@@ -36,6 +36,12 @@ function closeNav() {
    document.getElementById("main").style.display = "block";
 }
 
+function closeToggle() {
+   document.getElementById("mySidebar").style.display = "none";
+   document.getElementById("main").style.display = "block";
+   location.reload();
+}
+
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
 
