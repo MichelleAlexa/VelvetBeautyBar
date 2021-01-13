@@ -917,13 +917,13 @@ footer {
    }
 
    #face:before {
-      margin:-100px 0 0; /* negative fixed header height */
+      margin:-80px 0 0; /* negative fixed header height */
       }
    
    #body:before,
    #eyes:before,
    #other:before {
-      margin:-100px 0 0; /* negative fixed header height */
+      margin:-80px 0 0; /* negative fixed header height */
       }
 
    nav ul {
