@@ -916,6 +916,16 @@ footer {
       font-size: 2em;
    }
 
+   #face:before {
+      margin:-100px 0 0; /* negative fixed header height */
+      }
+   
+   #body:before,
+   #eyes:before,
+   #other:before {
+      margin:-100px 0 0; /* negative fixed header height */
+      }
+
    nav ul {
       height: 100vh;
    }
