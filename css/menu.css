@@ -755,7 +755,7 @@ footer {
       content:"";
       display:block;
       height: 200px; /* fixed header height*/
-      margin:-90px 0 0; /* negative fixed header height */
+      margin: -90px 0 0; 
    }
 
    .fibro-info {
@@ -785,7 +785,7 @@ footer {
    }
 
    .menu-container {
-      margin: 2em auto;
+      margin: 3em auto;
    }
 
    .menu-heading {
@@ -911,6 +911,11 @@ footer {
 
 @media only screen and (max-width: 414px) {
 
+   .sidebar .closebtn {
+      right: 12px;
+      font-size: 2em;
+   }
+
    nav ul {
       height: 100vh;
    }
@@ -920,7 +925,7 @@ footer {
    }
 
    .sidebar {
-      top: 11%;
+      top: 14%;
    }
 
    .sidebar a,
@@ -1038,11 +1043,15 @@ footer {
 
 @media only screen and (max-width: 375px) {
    .sidebar {
-      top: 12%;
+      top: 14%;
    }
 
    .sidebar .active {
       width: 70%;
+   }
+
+   .sidebar .closebtn {
+      font-size: 1.75em;
    }
 
    .menu-container {
