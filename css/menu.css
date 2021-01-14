@@ -1132,6 +1132,11 @@ footer {
 
 
 @media only screen and (max-width: 320px) {
+
+   .sidebar .closebtn {
+      right: 10px;
+   }
+   
    .sidebar {
       top: 17%;
    }
