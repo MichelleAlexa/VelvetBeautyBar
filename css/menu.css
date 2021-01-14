@@ -189,6 +189,7 @@ nav a:hover {
    letter-spacing: 5px;
 }
 
+.x {display: block;}
 
 /*-----SIDEBAR MENU-----*/
 .sidebar {
@@ -940,6 +941,8 @@ footer {
    .sidebar .active {
       width: 60%;
    }
+
+   .x {display: none;}
 
    .dropdown-container {
       padding-left: 25%;
