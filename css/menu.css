@@ -313,6 +313,7 @@ nav a:hover {
    height: 50px; /* fixed header height*/
    margin:-90px 0 0; /* negative fixed header height */
    }
+   
 #face:before {
    content:"";
    display:block;
@@ -321,7 +322,7 @@ nav a:hover {
    }
 
 #body:before,
-#eyes:before,
+#meso:before,
 #other:before {
    content:"";
    display:block;
@@ -719,6 +720,7 @@ footer {
 
    .sidebar {
       padding-top: 15px;
+      top: 7%;
    }
 
    .sidebar a,
@@ -752,12 +754,10 @@ footer {
       border: none;
    }
 
-   #fibro:before {
-      content:"";
-      display:block;
-      height: 200px; /* fixed header height*/
-      margin: -90px 0 0; 
-   }
+   .x {display: none;}
+   
+
+   #body, #other {margin-top: -100px;}
 
    .fibro-info {
       margin-top: 0;
@@ -786,7 +786,7 @@ footer {
    }
 
    .menu-container {
-      margin: 3em auto;
+      margin: 3em auto 0;
    }
 
    .menu-heading {
@@ -942,8 +942,6 @@ footer {
       width: 60%;
    }
 
-   .x {display: none;}
-
    .dropdown-container {
       padding-left: 25%;
    }
@@ -951,6 +949,8 @@ footer {
    .dropdown-container a {
       font-size: 1rem;
    }
+
+   #body, #other, #meso {margin-top: 0;}
 
    .fibro-info {
       height: auto;
