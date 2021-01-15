@@ -9,6 +9,10 @@
          height: 50vh;
          overflow-y: hidden;
       }
+
+      .promo {
+         overflow-y: hidden;
+      }
    }
 
    @media only screen and (max-width: 1920px) {
@@ -16,7 +20,13 @@
          width: 20%;
       }
    
-      .intro { height: 75vh; }
+      .intro { 
+         height: 75vh; 
+      }
+
+      .promo-btnW, .promo-btn {
+         width: 70%;
+      } 
    }
 
 @media only screen and (max-width: 1440px) {
@@ -62,6 +72,10 @@
    .promo-content p {
       font-size: 1.25rem;
    }
+
+   .promo-btnW, .promo-btn {
+      width: 100%;
+   } 
 
    /*-----Clinic-----*/
    .clinic-info {
