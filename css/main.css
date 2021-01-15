@@ -534,6 +534,7 @@ nav a:hover{
    height: auto;
    width: 100%;
    padding: 1%;
+   border-radius: 10px;
 }
 
 .promo-content {
