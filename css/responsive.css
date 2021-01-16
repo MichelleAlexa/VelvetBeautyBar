@@ -850,7 +850,7 @@
    }
 
    #promo:before {
-      height: 100px; /* fixed header height*/
+      height: 150px; /* fixed header height*/
       }
 
    .promo-container {
