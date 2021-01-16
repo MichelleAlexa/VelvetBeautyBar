@@ -950,6 +950,10 @@ footer {
       font-size: 1rem;
    }
 
+   #fibro:before {
+      margin: 90px 0 0; 
+      }
+      
    #body, #other, #meso {margin-top: 0;}
 
    .fibro-info {
