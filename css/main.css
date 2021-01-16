@@ -539,7 +539,7 @@ nav a:hover{
 
 .promo-content {
    border-radius: 30px;
-   background-color: rgba(255, 255, 255, 0.8);
+   background-color: #FFFF;
    flex: 0 1 50%;
    display: flex;
    flex-direction: column;
