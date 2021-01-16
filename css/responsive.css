@@ -849,6 +849,10 @@
       margin: 2em auto;
    }
 
+   #promo:before {
+      height: 100px; /* fixed header height*/
+      }
+
    .promo-container {
       width: 100%;
       height: 1200px;
