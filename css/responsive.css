@@ -964,7 +964,7 @@
 
    .clinic-foot .moto {
       font-size: 1.75rem;
-      margin-bottom: 150px;
+      margin-top: 80px;
    }
 }
 
@@ -1092,6 +1092,10 @@
 
    .contact-btn {
       font-size: 1rem;
+   }
+
+   .clinic-foot .moto {
+      margin-bottom: 100px;
    }
 }
 
