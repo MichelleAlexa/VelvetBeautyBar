@@ -926,6 +926,10 @@
       margin: 0 auto;
    }
 
+   .clinic-info {
+      height:100vh;
+   }
+   
    .clinic-content {
       flex-direction: column;
       height: 100%;
