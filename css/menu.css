@@ -971,7 +971,7 @@ footer {
 
    .menu .moto {
       width: 80%;
-      margin-top: 4em;
+      max-resolution: top 1920px;: 4em;
    }
 
    .menu-container {
