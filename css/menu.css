@@ -1043,6 +1043,10 @@ footer {
       margin-bottom: 0;
    }
 
+   h3 {
+      font-weight: 400;
+   }
+
    footer {
       margin: 0 auto;
    }
