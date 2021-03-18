@@ -23,10 +23,6 @@
       .intro { 
          height: 75vh; 
       }
-
-      .promo-btnW, .promo-btn {
-         width: 70%;
-      } 
    }
 
 @media only screen and (max-width: 1440px) {

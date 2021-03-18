@@ -494,7 +494,7 @@ nav a:hover{
    -moz-background-size:cover;
    -o-background-size:cover;
    width: 100%;
-   height: 1200px;
+   height: 1100px;
    padding: 3em;
    margin: 5em auto;
    text-align: center;
@@ -514,8 +514,8 @@ nav a:hover{
    /* border: 1px solid red; */
    max-width: 1400px;
    width: 1200px;
-   height: 700px;
-   margin: 120px auto;
+   height: 600px;
+   margin: 1% auto;
    position: relative;
    overflow: hidden;
    display: flex;
@@ -524,9 +524,9 @@ nav a:hover{
 }
 
 .promo-card {
+   /* border: 1px solid lavender; */
    width: 500px;
-   height: 620px;
-   margin: 3% auto;
+   margin: auto;
 }
 
 .promo_image {
@@ -537,68 +537,10 @@ nav a:hover{
    border-radius: 10px;
 }
 
-.promo-content {
-   border-radius: 30px;
-   background-color: #FFFF;
-   flex: 0 1 50%;
-   display: flex;
-   flex-direction: column;
-   padding: 2em;
-   justify-content: top center;
-   position: relative;
-   width: 100%;
-   height: 100%;
-}
-
-/* .promo-content p {
-   font-size: 1.50em;
-}
-
-.promo-title {
-   font-size: 2rem;
-   margin-bottom: .25em;
-}
-
-.promo-highlight {
-   color: #C74B72;
-   margin-bottom: 2em;
-   font-weight: 300;
-   letter-spacing: 1px;
-}
-
-.promo-body {
-   color: #9A9A9A;
-   height: 300px;
-   margin: auto;
-   text-align: center;
-}  
-*/
-
-.promo-btnW {
-   text-transform: uppercase;
-   color: #FFFFFF;
-   width: 50%;
-   margin: 1em auto;
-   padding: 8px 18px;
-   letter-spacing: 2px;
-   border-radius: 50px;
-   background: none;
-   border: 1px solid #fe3464;
-   box-shadow: 0 12px 45px rgba(254, 52, 100, 0.2);
-   color: #C74B72;
-}
-
-.promo-btnW:hover {
-   color: #FFFFFF;
-   background: linear-gradient(45deg, #fe3464, #BD354C);
-   box-shadow: 0 6px 25px rgba(254, 52, 100, 0.4);
-   border: 1px solid transparent;
-}
-
 .promo-btn {
    text-transform: uppercase;
    color: #FFFFFF;
-   width: 50%;
+   width: 100%;
    margin: 1em auto;
    padding: 8px 18px;
    letter-spacing: 2px;
@@ -608,14 +550,10 @@ nav a:hover{
    border: 1px solid transparent;
 }
 
-.long {
-   width: 70%;
-}
-
 .promo-btn:hover {
-   background: none;
+   background: #FFFFFF;
    border: 1px solid #fe3464;
-   box-shadow: 0 12px 45px rgba(254, 52, 100, 0.2);
+   box-shadow: 0 12px 45px rgba(255, 255, 255, 0.35);
    color: #C74B72;
 }
 

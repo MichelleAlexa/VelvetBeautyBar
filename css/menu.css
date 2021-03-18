@@ -346,7 +346,7 @@ nav a:hover {
 .menu-heading {
    /* border: 1px solid black; */
    margin: 2%;
-   width: 100%;
+   width: 90%;
 }
 
 .combo-title {
@@ -360,6 +360,7 @@ nav a:hover {
    margin: 4% auto;
    display: flex;
    flex-direction: row;
+   /* justify-content: center; */
    width: 90%;
 }
 
@@ -377,6 +378,7 @@ nav a:hover {
 
 .total {
    /* border: 1px solid greenyellow; */
+   display: none;
    margin: 2% 0;
    width: 200px;
    text-align: right;
@@ -384,6 +386,7 @@ nav a:hover {
 
 .menu-price {
    /* border: 1px solid green; */
+   display: none;
    margin: 2% 0;
    width: 200px;
    text-align: right;
@@ -391,6 +394,7 @@ nav a:hover {
 
 .menu-price h2 {
    color: #C74B72;
+   /* text-transform: lowercase; */
 }
 
 .menu-info h2 {
@@ -579,8 +583,10 @@ footer {
 
 /************************************************/
 @media only screen and (max-width: 1920px) {
+
+
    .menu-info {
-      width: 80%;
+      width: 55%;
    }
 
    .menu-info h1 {
@@ -625,7 +631,7 @@ footer {
    }
 
    .menu-info {
-      width: 90%;
+      width: 60%;
    }
 
    .menu p {
@@ -659,6 +665,10 @@ footer {
 
    .menu-container {
       margin: 6% auto;
+   }
+
+   .menu-info {
+      width: 70%;
    }
 }
 
