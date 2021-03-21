@@ -125,6 +125,10 @@ header {
    color: #333333;
 }
 
+.signature {
+   font-family: 'Nothing You Could Do', cursive;
+   color: #9A9A9A;
+}
 
 /*-----Navigation Styles-----*/
 .logo {
