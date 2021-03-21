@@ -476,7 +476,7 @@ nav a:hover {
    width: 100%;
    max-width: 1500px;
    margin: 8% auto;
-   padding: 1em;
+   padding: 1%;
    display: flex;
 }
 
@@ -489,7 +489,7 @@ nav a:hover {
 .fibro-content {
    /* border: 1px solid pink; */
    width: 40%;
-   padding: 0 1%;
+   padding: 1%;
    margin: 1% auto;
    position: relative;
 }
@@ -586,7 +586,7 @@ footer {
 
 
    .menu-info {
-      width: 55%;
+      width: 50%;
    }
 
    .menu-info h1 {
